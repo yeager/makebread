@@ -45,6 +45,16 @@
   <content_rating type="oars-1.1" />
 
   <releases>
+    <release version="0.2.0" date="2026-02-09">
+      <description>
+        <p>Internationalization support</p>
+        <ul>
+          <li>Full i18n support via GNU gettext</li>
+          <li>Swedish (sv) translation — complete UI coverage</li>
+          <li>POT template and translation guide for contributors</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-02-09">
       <description>
         <p>Initial release</p>

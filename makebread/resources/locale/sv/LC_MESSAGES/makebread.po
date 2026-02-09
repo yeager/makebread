@@ -1,0 +1,306 @@
+# Swedish translation for makeBread.
+# Copyright (C) 2026 Daniel Nylander
+# This file is distributed under the same license as the makeBread package.
+# Daniel Nylander <daniel@danielnylander.se>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: makebread 0.2.0\n"
+"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
+"POT-Creation-Date: 2026-02-09 08:00+0100\n"
+"PO-Revision-Date: 2026-02-09 08:00+0100\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "makeBread — Bread Machine Recipe Manager"
+msgstr "makeBread — Recepthanterare för bakmaskin"
+
+msgid "Search recipes..."
+msgstr "Sök recept…"
+
+msgid "&Edit"
+msgstr "&Redigera"
+
+msgid "&Settings..."
+msgstr "&Inställningar…"
+
+msgid "&Help"
+msgstr "&Hjälp"
+
+msgid "&About makeBread"
+msgstr "&Om makeBread"
+
+msgid "Donate ♥"
+msgstr "Donera ♥"
+
+msgid "Main Toolbar"
+msgstr "Huvudverktygsfält"
+
+msgid "&New Recipe"
+msgstr "&Nytt recept"
+
+msgid "&Delete"
+msgstr "&Ta bort"
+
+msgid "🎲 &Random"
+msgstr "🎲 &Slumpa"
+
+msgid "🖨️ &Print"
+msgstr "🖨️ &Skriv ut"
+
+msgid "{count} recipes"
+msgstr "{count} recept"
+
+msgid "{count} results for '{query}'"
+msgstr "{count} resultat för \"{query}\""
+
+msgid "Delete Recipe"
+msgstr "Ta bort recept"
+
+msgid "Delete '{name}'?"
+msgstr "Ta bort \"{name}\"?"
+
+msgid "Random pick: {name}"
+msgstr "Slumpmässigt val: {name}"
+
+msgid ""
+"<p>makeBread is free software.</p>"
+"<p>If you find it useful, consider supporting development:</p>"
+"<p>❤️ <b>GitHub Sponsors:</b> <a href='https://github.com/sponsors/yeager'>"
+"github.com/sponsors/yeager</a></p>"
+"<p>🇸🇪 <b>Swish:</b> +46702526206 — "
+"<a href='swish://payment?payee=0702526206&message=makeBread'>"
+"Open Swish</a></p>"
+msgstr ""
+"<p>makeBread är fri programvara.</p>"
+"<p>Om programmet är användbart, överväg att stödja utvecklingen:</p>"
+"<p>❤️ <b>GitHub Sponsors:</b> <a href='https://github.com/sponsors/yeager'>"
+"github.com/sponsors/yeager</a></p>"
+"<p>🇸🇪 <b>Swish:</b> +46702526206 — "
+"<a href='swish://payment?payee=0702526206&message=makeBread'>"
+"Öppna Swish</a></p>"
+
+msgid "About makeBread"
+msgstr "Om makeBread"
+
+msgid ""
+"<h3>makeBread</h3>"
+"<p>Bread Machine Recipe Manager</p>"
+"<p>© 2026 Daniel Nylander</p>"
+"<p>License: GPL-3.0-or-later</p>"
+"<p><a href='https://github.com/yeager/makebread'>"
+"github.com/yeager/makebread</a></p>"
+msgstr ""
+"<h3>makeBread</h3>"
+"<p>Recepthanterare för bakmaskin</p>"
+"<p>© 2026 Daniel Nylander</p>"
+"<p>Licens: GPL-3.0-or-later</p>"
+"<p><a href='https://github.com/yeager/makebread'>"
+"github.com/yeager/makebread</a></p>"
+
+msgid "Edit Recipe"
+msgstr "Redigera recept"
+
+msgid "New Recipe"
+msgstr "Nytt recept"
+
+msgid "Name:"
+msgstr "Namn:"
+
+msgid "Description:"
+msgstr "Beskrivning:"
+
+msgid "Category:"
+msgstr "Kategori:"
+
+msgid "Loaf Size:"
+msgstr "Brödstorlek:"
+
+msgid "Program:"
+msgstr "Program:"
+
+msgid "Crust:"
+msgstr "Skorpa:"
+
+msgid "Brand"
+msgstr "Märke"
+
+msgid "Model"
+msgstr "Modell"
+
+msgid "Machine:"
+msgstr "Maskin:"
+
+msgid "Author:"
+msgstr "Författare:"
+
+msgid "Source URL:"
+msgstr "Käll-URL:"
+
+msgid "comma separated"
+msgstr "kommaseparerade"
+
+msgid "Tags:"
+msgstr "Etiketter:"
+
+msgid "Path to bread photo (optional)"
+msgstr "Sökväg till brödfoto (valfritt)"
+
+msgid "Browse..."
+msgstr "Bläddra…"
+
+msgid "Clear"
+msgstr "Rensa"
+
+msgid "Photo:"
+msgstr "Foto:"
+
+msgid "Basic Info"
+msgstr "Grundläggande information"
+
+msgid "Amount"
+msgstr "Mängd"
+
+msgid "Unit"
+msgstr "Enhet"
+
+msgid "Ingredient"
+msgstr "Ingrediens"
+
+msgid "Group"
+msgstr "Grupp"
+
+msgid "+ Add Ingredient"
+msgstr "+ Lägg till ingrediens"
+
+msgid "- Remove Selected"
+msgstr "- Ta bort markerad"
+
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+msgid "Step"
+msgstr "Steg"
+
+msgid "Instruction"
+msgstr "Instruktion"
+
+msgid "+ Add Step"
+msgstr "+ Lägg till steg"
+
+msgid "Instructions"
+msgstr "Instruktioner"
+
+msgid "Notes"
+msgstr "Anteckningar"
+
+msgid "Select bread photo"
+msgstr "Välj brödfoto"
+
+msgid "Images (*.png *.jpg *.jpeg *.webp *.bmp)"
+msgstr "Bilder (*.png *.jpg *.jpeg *.webp *.bmp)"
+
+msgid "makeBread"
+msgstr "makeBread"
+
+msgid "Select a recipe from the list, or add a new one."
+msgstr "Välj ett recept från listan eller lägg till ett nytt."
+
+msgid "Loaf Size"
+msgstr "Brödstorlek"
+
+msgid "Program"
+msgstr "Program"
+
+msgid "Crust"
+msgstr "Skorpa"
+
+msgid "Machine"
+msgstr "Maskin"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Loaf"
+msgstr "Bröd"
+
+msgid "Print Recipe"
+msgstr "Skriv ut recept"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Measurement Units"
+msgstr "Måttenheter"
+
+msgid "US (cups, oz, °F)"
+msgstr "Amerikanskt (cups, oz, °F)"
+
+msgid "Metric (dl, g, °C)"
+msgstr "Metriskt (dl, g, °C)"
+
+msgid "Imperial (fl oz, oz, °C)"
+msgstr "Brittiskt (fl oz, oz, °C)"
+
+msgid "Unit system:"
+msgstr "Enhetssystem:"
+
+msgid "Automatically convert units when displaying recipes"
+msgstr "Konvertera enheter automatiskt vid visning av recept"
+
+msgid ""
+"Original values are preserved in the database.\n"
+"Conversion only affects how recipes are displayed and printed."
+msgstr ""
+"Originalvärden bevaras i databasen.\n"
+"Konvertering påverkar endast hur recept visas och skrivs ut."
+
+msgid "Display"
+msgstr "Visning"
+
+msgid "Show machine info in recipe list"
+msgstr "Visa maskininformation i receptlistan"
+
+msgid "Show category badges"
+msgstr "Visa kategorimärken"
+
+msgid "cup"
+msgstr "cup"
+
+msgid "cups"
+msgstr "cups"
+
+msgid "tbsp"
+msgstr "msk"
+
+msgid "tsp"
+msgstr "tsk"
+
+msgid "oz"
+msgstr "oz"
+
+msgid "lb"
+msgstr "lb"
+
+msgid "fl oz"
+msgstr "fl oz"
+
+msgid "dl"
+msgstr "dl"
+
+msgid "ml"
+msgstr "ml"
+
+msgid "l"
+msgstr "l"
+
+msgid "g"
+msgstr "g"
+
+msgid "kg"
+msgstr "kg"

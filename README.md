@@ -12,7 +12,7 @@ A simple, clean bread machine recipe manager built with PySide6/Qt6.
 - 📏 Unit conversion — US (cups/oz), Metric (dl/g), Imperial
 - 📸 Optional photo per recipe
 - 📤 Import/export recipes as JSON
-- 🌍 Internationalization ready (gettext)
+- 🌍 Internationalization (gettext) — Swedish translation included
 - 🍞 103 built-in starter recipes
 
 ## Installation
@@ -89,6 +89,15 @@ Submit your favorite bread machine recipes:
 The app includes AppData/MetaInfo (`data/io.github.yeager.makebread.metainfo.xml`)
 and a desktop entry (`data/io.github.yeager.makebread.desktop`) for integration
 with Elementary AppCenter and Ubuntu Software Center.
+
+## Translations
+
+| Language | Code | Status |
+|----------|------|--------|
+| English  | en   | ✅ Source language |
+| Svenska  | sv   | ✅ Complete |
+
+Want to translate makeBread? See [`makebread/resources/locale/README.md`](makebread/resources/locale/README.md) for instructions.
 
 ## License
 

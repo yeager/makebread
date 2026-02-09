@@ -2,6 +2,14 @@
 
 All notable changes to makeBread will be documented in this file.
 
+## [0.2.0] - 2026-02-09
+
+### Added
+- Full internationalization (i18n) support via GNU gettext
+- Swedish (sv) translation — complete coverage of all UI strings
+- POT template for translators (`makebread/resources/locale/makebread.pot`)
+- Translation guide (`makebread/resources/locale/README.md`)
+
 ## [0.1.0] - 2026-02-09
 
 ### Added
