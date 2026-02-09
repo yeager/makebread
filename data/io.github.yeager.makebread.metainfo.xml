@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.yeager.makebread</id>
+  <name>makeBread</name>
+  <summary>Bread machine recipe manager</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.yeager">
+    <name>Daniel Nylander</name>
+  </developer>
+
+  <description>
+    <p>
+      A simple, clean recipe manager for bread machines. Store your favorite recipes,
+      search by ingredient or category, get random baking suggestions, and print
+      beautiful recipe cards.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Add, edit, and organize bread machine recipes</li>
+      <li>Search by name, ingredient, or category</li>
+      <li>Random recipe picker for daily inspiration</li>
+      <li>Print-ready recipe cards with clean design</li>
+      <li>Track machine model and program settings per recipe</li>
+      <li>Unit conversion between US, Metric, and Imperial</li>
+      <li>Optional photo for each recipe</li>
+      <li>Import and export recipes as JSON</li>
+      <li>Comes with 103 starter recipes</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.yeager.makebread.desktop</launchable>
+
+  <url type="homepage">https://github.com/yeager/makebread</url>
+  <url type="bugtracker">https://github.com/yeager/makebread/issues</url>
+  <url type="donation">https://github.com/sponsors/yeager</url>
+  <url type="vcs-browser">https://github.com/yeager/makebread</url>
+
+  <branding>
+    <color type="primary">#8B6914</color>
+    <color type="primary" scheme_preference="light">#D4A843</color>
+    <color type="primary" scheme_preference="dark">#5C4510</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="0.1.0" date="2026-02-09">
+      <description>
+        <p>Initial release</p>
+        <ul>
+          <li>Recipe management with SQLite database</li>
+          <li>Full-text search</li>
+          <li>Random recipe picker</li>
+          <li>Print support</li>
+          <li>Unit conversion (US/Metric/Imperial)</li>
+          <li>103 built-in starter recipes</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <categories>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>bread</keyword>
+    <keyword>baking</keyword>
+    <keyword>recipe</keyword>
+    <keyword>bread machine</keyword>
+    <keyword>cooking</keyword>
+  </keywords>
+
+  <provides>
+    <binary>makebread</binary>
+  </provides>
+
+  <recommends>
+    <display_length compare="ge">768</display_length>
+  </recommends>
+</component>

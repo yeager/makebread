@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=makeBread
+GenericName=Bread Machine Recipe Manager
+Comment=Store and manage bread machine recipes
+Exec=makebread
+Icon=io.github.yeager.makebread
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=bread;baking;recipe;cooking;
+StartupWMClass=makebread

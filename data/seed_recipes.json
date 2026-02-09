@@ -1,0 +1,6057 @@
+[
+  {
+    "name": "Classic White Bread",
+    "description": "Simple, soft white bread perfect for sandwiches and toast.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "basic",
+      "sandwich"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to bread pan in order listed.",
+      "Select Basic/White cycle, medium crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Honey Wheat Bread",
+    "description": "Hearty whole wheat bread sweetened with honey.",
+    "category": "wheat",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "wheat",
+      "honey",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Whole Wheat cycle, medium crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "French Bread",
+    "description": "Crusty French-style bread with a chewy interior.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "French",
+    "crust_setting": "dark",
+    "tags": [
+      "french",
+      "crusty"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to pan in order.",
+      "Select French cycle, dark crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cinnamon Raisin Bread",
+    "description": "Sweet bread with cinnamon swirl and plump raisins.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "sweet",
+      "fruit",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "raisins"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except raisins.",
+      "Select Sweet cycle, medium crust.",
+      "Add raisins at the beep/add-in signal.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Italian Herb Bread",
+    "description": "Aromatic bread with Italian herbs and olive oil.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "herb",
+      "italian",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried basil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "garlic powder"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to bread pan in order listed.",
+      "Select Basic/White cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Banana Bread",
+    "description": "Moist banana bread made easy in the bread machine.",
+    "category": "sweet",
+    "loaf_size": "1.5lb",
+    "machine_program": "Quick/Rapid",
+    "crust_setting": "light",
+    "tags": [
+      "banana",
+      "sweet",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "ripe bananas, mashed"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "butter, melted"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "instructions": [
+      "Mix wet ingredients.",
+      "Add dry ingredients.",
+      "Pour into bread pan.",
+      "Select Quick/Rapid or Cake cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Oatmeal Bread",
+    "description": "Soft, hearty bread with rolled oats.",
+    "category": "wheat",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "oat",
+      "hearty",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "2 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Basic cycle, medium crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Potato Bread",
+    "description": "Incredibly soft bread using potato flakes.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "potato",
+      "soft",
+      "sandwich"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "instant potato flakes"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to bread pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Beer Bread",
+    "description": "Hearty bread with a distinctive beer flavor and chewy texture.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "beer",
+      "hearty"
+    ],
+    "ingredients": [
+      {
+        "amount": "12",
+        "unit": "oz",
+        "name": "beer, room temperature"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add beer and remaining ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cheese Bread",
+    "description": "Rich, cheesy bread perfect as a side dish.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "cheese",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded cheddar cheese"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Rosemary Olive Oil Bread",
+    "description": "Fragrant bread with fresh rosemary and olive oil.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "rosemary",
+      "herb",
+      "olive oil"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "fresh rosemary, chopped"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Pumpernickel Bread",
+    "description": "Dark, dense rye bread with cocoa and molasses.",
+    "category": "rye",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "dark",
+    "tags": [
+      "rye",
+      "dark",
+      "hearty"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "molasses"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "caraway seeds"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "rye flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to pan in order.",
+      "Select Whole Wheat cycle, dark crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Buttermilk Bread",
+    "description": "Tender bread with a subtle tang from buttermilk.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "buttermilk",
+      "tender"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "buttermilk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Garlic Bread",
+    "description": "Soft bread loaded with garlic flavor.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "garlic",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "4",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sourdough Bread",
+    "description": "Tangy sourdough using bread machine with starter.",
+    "category": "sourdough",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "sourdough",
+      "tangy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "sourdough starter"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add starter and ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Brioche Bread",
+    "description": "Rich, buttery French bread with eggs.",
+    "category": "sweet",
+    "loaf_size": "1.5lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "brioche",
+      "french",
+      "rich",
+      "butter"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "butter, softened"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients first, then dry.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Multigrain Bread",
+    "description": "Nutritious bread with multiple grains and seeds.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "multigrain",
+      "healthy",
+      "seeds"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "flaxseed"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sunflower seeds"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to bread pan.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Challah Bread",
+    "description": "Traditional Jewish egg bread, rich and slightly sweet.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "challah",
+      "egg",
+      "jewish"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "vegetable oil"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients to pan.",
+      "Use Dough cycle.",
+      "Remove, braid, let rise 30 min.",
+      "Brush with egg wash.",
+      "Bake at 375°F for 25-30 min."
+    ]
+  },
+  {
+    "name": "Pumpkin Bread",
+    "description": "Warm, spiced bread with pumpkin puree.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "pumpkin",
+      "fall",
+      "spice"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "pumpkin puree"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "nutmeg"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "ginger"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients, then dry.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Rye Bread",
+    "description": "Classic light rye with caraway seeds.",
+    "category": "rye",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "rye",
+      "caraway"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "caraway seeds"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "rye flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients in order.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sun-Dried Tomato Bread",
+    "description": "Savory bread with sun-dried tomatoes and herbs.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "tomato",
+      "savory",
+      "herb"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "sun-dried tomatoes, chopped"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried basil"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cornbread",
+    "description": "Sweet cornbread made in the bread machine.",
+    "category": "other",
+    "loaf_size": "1.5lb",
+    "machine_program": "Quick/Rapid",
+    "crust_setting": "light",
+    "tags": [
+      "corn",
+      "sweet",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "buttermilk"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "butter, melted"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "cornmeal"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "instructions": [
+      "Mix wet and dry ingredients separately.",
+      "Combine and pour into pan.",
+      "Use Quick/Cake cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Pizza Dough",
+    "description": "Versatile pizza dough made in the bread machine.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "pizza",
+      "dough"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Dough cycle.",
+      "Remove dough and shape.",
+      "Add toppings.",
+      "Bake at 425°F for 12-15 min."
+    ]
+  },
+  {
+    "name": "Cinnamon Swirl Bread",
+    "description": "White bread with a gorgeous cinnamon sugar swirl.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "cinnamon",
+      "swirl",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "brown sugar",
+        "group": "filling"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "cinnamon",
+        "group": "filling"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle for bread ingredients.",
+      "Roll out dough into rectangle.",
+      "Sprinkle with brown sugar and cinnamon.",
+      "Roll up tightly, place in pan.",
+      "Let rise 30 min.",
+      "Bake at 350°F for 30-35 min."
+    ]
+  },
+  {
+    "name": "Olive Bread",
+    "description": "Mediterranean bread studded with kalamata olives.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "olive",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "kalamata olives, chopped"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except olives.",
+      "Select Basic cycle.",
+      "Add olives at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Egg Bread",
+    "description": "Rich, golden bread with a soft crumb.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "egg",
+      "rich"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients, then dry.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Peanut Butter Bread",
+    "description": "Unique, hearty bread with creamy peanut butter.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "peanut butter",
+      "unique"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "creamy peanut butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Dill Bread",
+    "description": "Savory bread with cottage cheese and dill.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "dill",
+      "cottage cheese",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "cottage cheese"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "dried dill"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "dried onion flakes"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Chocolate Bread",
+    "description": "Rich chocolate bread, perfect for dessert or breakfast.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "chocolate",
+      "sweet",
+      "dessert"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "chocolate chips"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except chips.",
+      "Select Sweet cycle, light crust.",
+      "Add chips at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cranberry Walnut Bread",
+    "description": "Festive bread with dried cranberries and walnuts.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "cranberry",
+      "walnut",
+      "holiday"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "dried cranberries"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "chopped walnuts"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except cranberries and walnuts.",
+      "Select Sweet cycle.",
+      "Add fruit and nuts at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Jalapeno Cheese Bread",
+    "description": "Spicy cheese bread with pickled jalapenos.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "jalapeno",
+      "cheese",
+      "spicy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded pepper jack cheese"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "pickled jalapenos, chopped"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Anadama Bread",
+    "description": "Classic New England bread with cornmeal and molasses.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "cornmeal",
+      "molasses",
+      "new england"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "molasses"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "cornmeal"
+      },
+      {
+        "amount": "2 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add ingredients in order.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Coconut Bread",
+    "description": "Tropical, slightly sweet bread with coconut milk and flakes.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "coconut",
+      "tropical"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "coconut milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "shredded coconut"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Onion Bread",
+    "description": "Simple, flavorful bread with dried onion.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "onion",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "dried minced onion"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Spelt Bread",
+    "description": "Nutty, ancient grain bread with spelt flour.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "spelt",
+      "ancient grain"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "spelt flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Maple Oat Bread",
+    "description": "Comforting bread with maple syrup and oats.",
+    "category": "wheat",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "maple",
+      "oat"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "maple syrup"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Herb and Cheese Bread",
+    "description": "Savory bread with mixed herbs and Parmesan.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "herb",
+      "cheese",
+      "parmesan"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "grated Parmesan cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried basil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "dried thyme"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Applesauce Bread",
+    "description": "Moist bread with applesauce, raisins, and cinnamon.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "apple",
+      "fruit",
+      "cinnamon"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "unsweetened applesauce"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "raisins"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except raisins.",
+      "Select Sweet cycle.",
+      "Add raisins at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Milk Bread",
+    "description": "Super soft Japanese-style milk bread (Shokupan).",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "light",
+    "tags": [
+      "japanese",
+      "soft",
+      "milk"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "whole milk"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "dry milk powder"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients first.",
+      "Add dry ingredients.",
+      "Select Basic cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sour Milk Bread",
+    "description": "Great sandwich bread made with soured milk.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "sour milk",
+      "sandwich"
+    ],
+    "source_name": "Bread Machine Diva",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "sour milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients to pan.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Hawaiian Sweet Bread",
+    "description": "Sweet, tropical bread with pineapple juice.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "hawaiian",
+      "sweet",
+      "pineapple"
+    ],
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "pineapple juice"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients, then dry.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Taco Bread",
+    "description": "Spicy bread flavored with taco seasoning.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "taco",
+      "spicy",
+      "mexican"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "taco seasoning mix"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Semolina Bread",
+    "description": "Golden bread made with semolina flour.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "semolina",
+      "italian"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "semolina flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Eggnog Bread",
+    "description": "Festive bread made with eggnog, cinnamon, and nutmeg.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "eggnog",
+      "holiday",
+      "christmas"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "eggnog"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "nutmeg"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Hamburger Buns",
+    "description": "Soft, homemade hamburger buns from the bread machine.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "buns",
+      "hamburger",
+      "dough"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3 1/4",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Divide into 8 balls.",
+      "Flatten to 3.5-inch rounds.",
+      "Let rise 30 min.",
+      "Bake at 375°F for 12-15 min."
+    ]
+  },
+  {
+    "name": "Focaccia",
+    "description": "Italian flatbread with olive oil and sea salt.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "focaccia",
+      "italian",
+      "flatbread"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil",
+        "group": "topping"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "flaky sea salt",
+        "group": "topping"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried rosemary",
+        "group": "topping"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Press into oiled 9x13 pan.",
+      "Dimple with fingers.",
+      "Drizzle with olive oil, add salt and rosemary.",
+      "Let rise 20 min.",
+      "Bake at 400°F for 20-25 min."
+    ]
+  },
+  {
+    "name": "Apple Cider Bread",
+    "description": "Autumn bread made with apple cider and cinnamon.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "apple",
+      "cider",
+      "fall"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "apple cider"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sunflower Seed Bread",
+    "description": "Wholesome bread packed with sunflower seeds.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "sunflower",
+      "seeds",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "sunflower seeds"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Blueberry Bread",
+    "description": "Sweet bread bursting with dried blueberries.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "blueberry",
+      "fruit",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "dried blueberries"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except blueberries.",
+      "Select Sweet cycle.",
+      "Add blueberries at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Gluten-Free White Bread",
+    "description": "Soft gluten-free bread for those with sensitivities.",
+    "category": "gluten-free",
+    "loaf_size": "1.5lb",
+    "machine_program": "Gluten-Free",
+    "crust_setting": "medium",
+    "tags": [
+      "gluten-free",
+      "basic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "warm water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "vegetable oil"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "apple cider vinegar"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "xanthan gum"
+      },
+      {
+        "amount": "2 3/4",
+        "unit": "cups",
+        "name": "gluten-free flour blend"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add wet ingredients first.",
+      "Add dry ingredients.",
+      "Select Gluten-Free cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Zucchini Bread",
+    "description": "Moist quick bread with shredded zucchini.",
+    "category": "other",
+    "loaf_size": "1.5lb",
+    "machine_program": "Quick/Rapid",
+    "crust_setting": "light",
+    "tags": [
+      "zucchini",
+      "vegetable",
+      "quick"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded zucchini"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "vegetable oil"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "all-purpose flour"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "baking soda"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "instructions": [
+      "Mix wet ingredients.",
+      "Combine dry ingredients.",
+      "Add to bread pan.",
+      "Select Quick/Cake cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Dark Rye Bread",
+    "description": "Dense, dark rye with cocoa and molasses.",
+    "category": "rye",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "dark",
+    "tags": [
+      "rye",
+      "dark",
+      "dense"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "dark molasses"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "caraway seeds"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "rye flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle, dark crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Lemon Poppy Seed Bread",
+    "description": "Bright, citrusy bread with poppy seeds.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "lemon",
+      "poppy seed"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "lemon zest"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "poppy seeds"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Honey Oat Wheat Bread",
+    "description": "Wholesome bread with honey, oats, and whole wheat.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "honey",
+      "oat",
+      "wheat",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Dinner Rolls",
+    "description": "Soft, fluffy dinner rolls from the bread machine.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "rolls",
+      "dinner",
+      "dough"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Shape into 12 rolls.",
+      "Place in greased pan.",
+      "Let rise 30 min.",
+      "Bake at 375°F for 15-18 min."
+    ]
+  },
+  {
+    "name": "Marble Rye Bread",
+    "description": "Swirled light and dark rye in one beautiful loaf.",
+    "category": "rye",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "rye",
+      "marble"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "rye flour"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "cocoa powder",
+        "group": "dark half"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "molasses",
+        "group": "dark half"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Divide dough in half.",
+      "Knead cocoa and molasses into one half.",
+      "Roll each into rectangle, stack, and roll up.",
+      "Place in loaf pan, let rise 30 min.",
+      "Bake at 375°F for 30 min."
+    ]
+  },
+  {
+    "name": "Pepperoni Bread",
+    "description": "Savory bread stuffed with pepperoni and mozzarella.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "pepperoni",
+      "cheese",
+      "italian"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "pepperoni slices",
+        "group": "filling"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded mozzarella",
+        "group": "filling"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Roll out dough.",
+      "Layer pepperoni and cheese.",
+      "Roll up and seal.",
+      "Let rise 20 min.",
+      "Bake at 375°F for 25 min."
+    ]
+  },
+  {
+    "name": "Honey White Bread",
+    "description": "Light, fluffy white bread sweetened with honey.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "honey",
+      "white",
+      "basic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Bran Bread",
+    "description": "Fiber-rich bread with wheat bran.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "bran",
+      "fiber",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "wheat bran"
+      },
+      {
+        "amount": "2 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cheddar Beer Bread",
+    "description": "Hearty bread combining sharp cheddar and beer.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "cheddar",
+      "beer",
+      "hearty"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "beer"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded sharp cheddar"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cherry Almond Bread",
+    "description": "Sweet bread with dried cherries and almond extract.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "cherry",
+      "almond",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "almond extract"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "dried cherries"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients except cherries.",
+      "Select Sweet cycle.",
+      "Add cherries at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Orange Bread",
+    "description": "Fragrant citrus bread with orange juice and zest.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "orange",
+      "citrus"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "orange juice"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "orange zest"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Pretzel Bread",
+    "description": "Soft pretzel-style bread with a chewy crust.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "pretzel",
+      "german"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "warm water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "4",
+        "unit": "cups",
+        "name": "water",
+        "group": "bath"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "baking soda",
+        "group": "bath"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "coarse salt",
+        "group": "topping"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Shape dough into loaf.",
+      "Boil water with baking soda.",
+      "Dip loaf in bath for 30 seconds.",
+      "Sprinkle with coarse salt.",
+      "Bake at 425°F for 20-25 min."
+    ]
+  },
+  {
+    "name": "Banana Oat Bread",
+    "description": "Hearty breakfast bread with banana and oats.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "banana",
+      "oat",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "ripe bananas, mashed"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "raisins"
+      }
+    ],
+    "instructions": [
+      "Add all except raisins.",
+      "Select Basic cycle.",
+      "Add raisins at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Herb Focaccia",
+    "description": "Herbed Italian flatbread with garlic and thyme.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "focaccia",
+      "herb",
+      "garlic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "cloves",
+        "name": "garlic, minced"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried thyme"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "dried rosemary"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle.",
+      "Press into pan.",
+      "Dimple, drizzle oil.",
+      "Let rise 20 min.",
+      "Bake at 400°F for 20-25 min."
+    ]
+  },
+  {
+    "name": "Blue Cheese Bread",
+    "description": "Bold, savory bread with crumbled blue cheese.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "blue cheese",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "crumbled blue cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sweet Potato Bread",
+    "description": "Vibrant orange bread with mashed sweet potato.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "sweet potato",
+      "fall"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "mashed sweet potato"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Carrot Bread",
+    "description": "Sweet bread with shredded carrots and spices.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "carrot",
+      "spice"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded carrots"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "nutmeg"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Bacon Cheese Bread",
+    "description": "Decadent bread with crispy bacon and cheese.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "bacon",
+      "cheese",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "6",
+        "unit": "slices",
+        "name": "bacon, cooked and crumbled"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "shredded cheddar cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Whole Wheat Sandwich Bread",
+    "description": "100% whole wheat bread that's still soft enough for sandwiches.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "whole wheat",
+      "sandwich",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/3",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "vital wheat gluten"
+      },
+      {
+        "amount": "3 1/4",
+        "unit": "cups",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Buttermilk Oat Bread",
+    "description": "Soft bread with buttermilk tang and oat texture.",
+    "category": "wheat",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "buttermilk",
+      "oat"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "buttermilk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "rolled oats"
+      },
+      {
+        "amount": "2 1/4",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Canned Pea Bread",
+    "description": "Surprisingly delicious bread using canned peas.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "pea",
+      "vegetable",
+      "unique"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "can",
+        "name": "peas, undrained (15 oz)"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add peas with liquid (machine mashes them).",
+      "Add remaining ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Honey Mustard Bread",
+    "description": "Tangy bread with honey and Dijon mustard.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "honey mustard",
+      "tangy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "Dijon mustard"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Apricot Bread",
+    "description": "Fruity bread with apricot preserves.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "apricot",
+      "fruit",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "apricot preserves"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Everything Bagel Bread",
+    "description": "All the flavors of an everything bagel in bread form.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "everything bagel",
+      "savory",
+      "sesame"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "dried minced onion"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "dried minced garlic"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sesame seeds"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "poppy seeds"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cinnamon Bread",
+    "description": "Simple cinnamon-spiced bread, great toasted.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "cinnamon",
+      "breakfast"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Lavender Honey Bread",
+    "description": "Delicate bread infused with culinary lavender.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "light",
+    "tags": [
+      "lavender",
+      "honey",
+      "floral"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "dried culinary lavender"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Spinach Feta Bread",
+    "description": "Savory Mediterranean bread with spinach and feta.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "spinach",
+      "feta",
+      "mediterranean"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "frozen spinach, thawed and drained"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "crumbled feta cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Date Nut Bread",
+    "description": "Rich bread with chopped dates and walnuts.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "date",
+      "walnut",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "chopped dates"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "chopped walnuts"
+      }
+    ],
+    "instructions": [
+      "Add all except dates and nuts.",
+      "Select Sweet cycle.",
+      "Add dates and nuts at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Tomato Basil Bread",
+    "description": "Fresh-tasting bread with tomato juice and basil.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "tomato",
+      "basil",
+      "italian"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "tomato juice"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "fresh basil, chopped"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Buckwheat Bread",
+    "description": "Earthy, nutty bread with buckwheat flour.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "buckwheat",
+      "nutty"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "buckwheat flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Pesto Bread",
+    "description": "Savory bread swirled with basil pesto.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "pesto",
+      "basil",
+      "italian"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "basil pesto"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Flaxseed Bread",
+    "description": "Nutritious bread rich in omega-3 from flaxseeds.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "flaxseed",
+      "omega-3",
+      "healthy"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "ground flaxseed"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Almond Bread",
+    "description": "Delicate bread with almond flour and extract.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "almond",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "almond extract"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "almond flour"
+      },
+      {
+        "amount": "2 2/3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Fennel Bread",
+    "description": "Aromatic bread with fennel seeds.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "fennel",
+      "aromatic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "fennel seeds"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Sage Bread",
+    "description": "Savory bread with dried sage, perfect with soup.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "sage",
+      "savory",
+      "soup"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "dried sage"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Strawberry Bread",
+    "description": "Sweet bread with strawberry jam swirl.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "strawberry",
+      "fruit",
+      "sweet"
+    ],
+    "ingredients": [
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "strawberry jam"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cornmeal Bread",
+    "description": "Rustic bread with stone-ground cornmeal.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "cornmeal",
+      "rustic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2/3",
+        "unit": "cup",
+        "name": "stone-ground cornmeal"
+      },
+      {
+        "amount": "2 1/3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Curry Bread",
+    "description": "Unique bread spiced with curry powder.",
+    "category": "herb",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "curry",
+      "spice",
+      "unique"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "curry powder"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Gingerbread",
+    "description": "Spiced ginger bread for the bread machine.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "ginger",
+      "spice",
+      "holiday"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "molasses"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "ground ginger"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "cloves"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Parmesan Pepper Bread",
+    "description": "Zesty bread with Parmesan and black pepper.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "parmesan",
+      "pepper",
+      "savory"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "grated Parmesan cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Rice Bread",
+    "description": "Light bread made with cooked rice for extra moisture.",
+    "category": "white",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "rice",
+      "moist"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "cooked white rice"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Ciabatta",
+    "description": "Italian bread with large holes and crispy crust.",
+    "category": "dough only",
+    "loaf_size": "2lb",
+    "machine_program": "Dough",
+    "crust_setting": "medium",
+    "tags": [
+      "ciabatta",
+      "italian",
+      "crusty"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/3",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Use Dough cycle (dough will be very wet).",
+      "Turn out onto floured surface.",
+      "Shape into rectangle, don't deflate.",
+      "Let rise 45 min.",
+      "Bake at 425°F for 20-25 min with steam."
+    ]
+  },
+  {
+    "name": "Peppered Bacon Bread",
+    "description": "Savory bread with cracked pepper and bacon bits.",
+    "category": "other",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "pepper",
+      "bacon"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/8",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "bacon bits"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cracked black pepper"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Wheat Germ Bread",
+    "description": "Nutritious bread boosted with wheat germ.",
+    "category": "whole grain",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "wheat germ",
+      "nutritious"
+    ],
+    "ingredients": [
+      {
+        "amount": "1 1/4",
+        "unit": "cups",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "wheat germ"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Saffron Bread",
+    "description": "Fragrant golden bread with saffron threads.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "saffron",
+      "swedish",
+      "holiday"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "saffron threads, crushed"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "raisins"
+      }
+    ],
+    "instructions": [
+      "Warm milk slightly and dissolve saffron.",
+      "Add all ingredients except raisins.",
+      "Select Sweet cycle.",
+      "Add raisins at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Mozzarella and Herb Bread",
+    "description": "Soft, cheesy bread with Italian herbs.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "mozzarella",
+      "herb",
+      "italian"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": "3/4",
+        "unit": "cup",
+        "name": "shredded mozzarella"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "Italian seasoning"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Cardamom Bread",
+    "description": "Scandinavian-inspired bread with warm cardamom.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "cardamom",
+      "scandinavian",
+      "fika"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "milk"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "ground cardamom"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Chocolate Coconut Bread",
+    "description": "Tropical chocolate bread with coconut flakes.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "light",
+    "tags": [
+      "chocolate",
+      "coconut",
+      "tropical"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "coconut milk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1/4",
+        "unit": "cup",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "shredded coconut"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle, light crust.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Buttermilk Wheat Bread",
+    "description": "Soft whole wheat with buttermilk tang.",
+    "category": "wheat",
+    "loaf_size": "2lb",
+    "machine_program": "Whole Wheat",
+    "crust_setting": "medium",
+    "tags": [
+      "buttermilk",
+      "wheat"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "buttermilk"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "whole wheat flour"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Whole Wheat cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Fig Walnut Bread",
+    "description": "Rustic bread with dried figs and walnuts.",
+    "category": "fruit",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "fig",
+      "walnut",
+      "rustic"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "honey"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      },
+      {
+        "amount": "1/2",
+        "unit": "cup",
+        "name": "dried figs, chopped"
+      },
+      {
+        "amount": "1/3",
+        "unit": "cup",
+        "name": "chopped walnuts"
+      }
+    ],
+    "instructions": [
+      "Add all except figs and walnuts.",
+      "Select Sweet cycle.",
+      "Add figs and walnuts at beep.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Chai Spice Bread",
+    "description": "Warmly spiced bread inspired by chai tea.",
+    "category": "sweet",
+    "loaf_size": "2lb",
+    "machine_program": "Sweet",
+    "crust_setting": "medium",
+    "tags": [
+      "chai",
+      "spice",
+      "tea"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "brewed chai tea, cooled"
+      },
+      {
+        "amount": "2",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "brown sugar"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "cinnamon"
+      },
+      {
+        "amount": "1/2",
+        "unit": "tsp",
+        "name": "ginger"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "cardamom"
+      },
+      {
+        "amount": "1/4",
+        "unit": "tsp",
+        "name": "cloves"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Sweet cycle.",
+      "Press start."
+    ]
+  },
+  {
+    "name": "Gruyère Bread",
+    "description": "Rich bread with nutty Gruyère cheese.",
+    "category": "cheese",
+    "loaf_size": "2lb",
+    "machine_program": "Basic/White",
+    "crust_setting": "medium",
+    "tags": [
+      "gruyere",
+      "cheese",
+      "swiss"
+    ],
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "water"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "shredded Gruyère cheese"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": "3",
+        "unit": "cups",
+        "name": "bread flour"
+      },
+      {
+        "amount": "2",
+        "unit": "tsp",
+        "name": "active dry yeast"
+      }
+    ],
+    "instructions": [
+      "Add all ingredients.",
+      "Select Basic cycle.",
+      "Press start."
+    ]
+  }
+]
