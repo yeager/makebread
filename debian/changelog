@@ -1,0 +1,10 @@
+makebread (0.3.0) stable; urgency=medium
+
+  * Import/export recipes (JSON, Markdown)
+  * Print & PDF recipe cards
+  * Timer presets per bread machine model
+  * Ingredient scaling with baker's percentages
+  * Swedish, German, French, Spanish translations
+  * Bug fixes and UI improvements
+
+ -- Daniel Nylander <daniel@danielnylander.se>  Mon, 09 Feb 2026 15:00:00 +0100
