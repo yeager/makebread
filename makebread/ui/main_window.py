@@ -103,13 +103,27 @@ class MainWindow(QMainWindow):
         print_action.triggered.connect(self._on_print)
         toolbar.addAction(print_action)
 
+        toolbar.addSeparator()
+
+        self.fav_action = QAction(_("☆ &Favorite"), self)
+        self.fav_action.setShortcut("Ctrl+F")
+        self.fav_action.triggered.connect(self._on_toggle_favorite)
+        toolbar.addAction(self.fav_action)
+
+        filter_fav_action = QAction(_("♥ Favorites &Only"), self)
+        filter_fav_action.setCheckable(True)
+        filter_fav_action.triggered.connect(self._on_filter_favorites)
+        toolbar.addAction(filter_fav_action)
+        self.filter_fav_action = filter_fav_action
+
     def _load_recipes(self, select_id: int = None):
         """Load all recipes into the list."""
         self.recipes = self.store.get_all()
         self.recipe_list.clear()
         select_row = 0
         for i, r in enumerate(self.recipes):
-            item = QListWidgetItem(r.name)
+            label = f"★ {r.name}" if r.favorite else r.name
+            item = QListWidgetItem(label)
             item.setData(Qt.ItemDataRole.UserRole, r.id)
             self.recipe_list.addItem(item)
             if select_id and r.id == select_id:
@@ -124,6 +138,9 @@ class MainWindow(QMainWindow):
             recipe = self.store.get(self.recipes[row].id)
             if recipe:
                 self.recipe_view.show_recipe(recipe)
+                self.fav_action.setText(
+                    _("★ Un&favorite") if recipe.favorite else _("☆ &Favorite")
+                )
 
     @Slot(str)
     def _on_search(self, text: str):
@@ -200,6 +217,39 @@ class MainWindow(QMainWindow):
         recipe = self.store.get(self.recipes[row].id)
         if recipe:
             print_recipe(recipe, self)
+
+    @Slot()
+    def _on_toggle_favorite(self):
+        row = self.recipe_list.currentRow()
+        if row < 0:
+            return
+        recipe = self.store.get(self.recipes[row].id)
+        if not recipe:
+            return
+        recipe.favorite = not recipe.favorite
+        self.store.save(recipe)
+        self._load_recipes(select_id=recipe.id)
+        self.status.showMessage(
+            _("Added to favorites: {name}").format(name=recipe.name) if recipe.favorite
+            else _("Removed from favorites: {name}").format(name=recipe.name)
+        )
+
+    @Slot(bool)
+    def _on_filter_favorites(self, checked: bool):
+        if checked:
+            self.recipes = [r for r in self.store.get_all() if r.favorite]
+            self.recipe_list.clear()
+            for r in self.recipes:
+                item = QListWidgetItem(f"★ {r.name}")
+                item.setData(Qt.ItemDataRole.UserRole, r.id)
+                self.recipe_list.addItem(item)
+            self.status.showMessage(
+                _("{count} favorites").format(count=len(self.recipes))
+            )
+            if self.recipes:
+                self.recipe_list.setCurrentRow(0)
+        else:
+            self._load_recipes()
 
     @Slot()
     def _on_settings(self):
