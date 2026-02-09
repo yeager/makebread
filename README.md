@@ -73,7 +73,14 @@ Submit your favorite bread machine recipes:
 
 ## Screenshots
 
-*Coming soon*
+### Main Window
+![Main Window](docs/screenshots/main-window.png)
+
+### Recipe Detail
+![Recipe Detail](docs/screenshots/recipe-detail.png)
+
+### New Recipe
+![New Recipe](docs/screenshots/new-recipe.png)
 
 ## Building Packages
 
