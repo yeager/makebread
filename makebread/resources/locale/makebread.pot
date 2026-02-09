@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2026 Daniel Nylander
+# Copyright (C) YEAR Daniel Nylander
 # This file is distributed under the same license as the makeBread package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: makebread 0.2.0\n"
+"Project-Id-Version: makeBread 0.3.0\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-09 08:00+0100\n"
+"POT-Creation-Date: 2026-02-09 08:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,361 +17,392 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:24
 msgid "makeBread — Bread Machine Recipe Manager"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:41
 msgid "Search recipes..."
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:66 makebread/ui/main_window.py:84
 msgid "&Edit"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:67
 msgid "&Settings..."
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:70
 msgid "&Help"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:71
 msgid "&About makeBread"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:72 makebread/ui/main_window.py:268
 msgid "Donate ♥"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:75
 msgid "Main Toolbar"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:79
 msgid "&New Recipe"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:89
 msgid "&Delete"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:96
 msgid "🎲 &Random"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:101
 msgid "🖨️ &Print"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:108 makebread/ui/main_window.py:142
+msgid "☆ &Favorite"
+msgstr ""
+
+#: makebread/ui/main_window.py:113
+msgid "♥ Favorites &Only"
+msgstr ""
+
+#: makebread/ui/main_window.py:131
+#, python-brace-format
 msgid "{count} recipes"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:142
+msgid "★ Un&favorite"
+msgstr ""
+
+#: makebread/ui/main_window.py:160
+#, python-brace-format
 msgid "{count} results for '{query}'"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:192
 msgid "Delete Recipe"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:193
+#, python-brace-format
 msgid "Delete '{name}'?"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:210
+#, python-brace-format
 msgid "Random pick: {name}"
 msgstr ""
 
-#: makebread/ui/main_window.py
-msgid ""
-"<p>makeBread is free software.</p>"
-"<p>If you find it useful, consider supporting development:</p>"
-"<p>❤️ <b>GitHub Sponsors:</b> <a href='https://github.com/sponsors/yeager'>"
-"github.com/sponsors/yeager</a></p>"
-"<p>🇸🇪 <b>Swish:</b> +46702526206 — "
-"<a href='swish://payment?payee=0702526206&message=makeBread'>"
-"Open Swish</a></p>"
+#: makebread/ui/main_window.py:233
+#, python-brace-format
+msgid "Added to favorites: {name}"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:234
+#, python-brace-format
+msgid "Removed from favorites: {name}"
+msgstr ""
+
+#: makebread/ui/main_window.py:247
+#, python-brace-format
+msgid "{count} favorites"
+msgstr ""
+
+#: makebread/ui/main_window.py:271
+msgid ""
+"<p>makeBread is free software.</p><p>If you find it useful, consider "
+"supporting development:</p><p>❤️ <b>GitHub Sponsors:</b> <a href='https://"
+"github.com/sponsors/yeager'>github.com/sponsors/yeager</a></p><p>🇸🇪 <b>Swish:"
+"</b> +46702526206 — <a href='swish://payment?"
+"payee=0702526206&message=makeBread'>Open Swish</a></p>"
+msgstr ""
+
+#: makebread/ui/main_window.py:285
 msgid "About makeBread"
 msgstr ""
 
-#: makebread/ui/main_window.py
+#: makebread/ui/main_window.py:287
 msgid ""
-"<h3>makeBread</h3>"
-"<p>Bread Machine Recipe Manager</p>"
-"<p>© 2026 Daniel Nylander</p>"
-"<p>License: GPL-3.0-or-later</p>"
-"<p><a href='https://github.com/yeager/makebread'>"
-"github.com/yeager/makebread</a></p>"
+"<h3>makeBread</h3><p>Bread Machine Recipe Manager</p><p>© 2026 Daniel "
+"Nylander</p><p>License: GPL-3.0-or-later</p><p><a href='https://github.com/"
+"yeager/makebread'>github.com/yeager/makebread</a></p>"
 msgstr ""
 
-#: makebread/ui/recipe_editor.py
-msgid "Edit Recipe"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "New Recipe"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Name:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Description:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Category:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Loaf Size:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Program:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Crust:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Brand"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Model"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Machine:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Author:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Source URL:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "comma separated"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Tags:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Path to bread photo (optional)"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Browse..."
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Clear"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Photo:"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Basic Info"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Amount"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Unit"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Ingredient"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Group"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "+ Add Ingredient"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "- Remove Selected"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Ingredients"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Step"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Instruction"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "+ Add Step"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Instructions"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Notes"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Select bread photo"
-msgstr ""
-
-#: makebread/ui/recipe_editor.py
-msgid "Images (*.png *.jpg *.jpeg *.webp *.bmp)"
-msgstr ""
-
-#: makebread/ui/recipe_view.py
-msgid "makeBread"
-msgstr ""
-
-#: makebread/ui/recipe_view.py
-msgid "Select a recipe from the list, or add a new one."
-msgstr ""
-
-#: makebread/ui/recipe_view.py makebread/ui/print_recipe.py
-msgid "Loaf Size"
-msgstr ""
-
-#: makebread/ui/recipe_view.py makebread/ui/print_recipe.py
-msgid "Program"
-msgstr ""
-
-#: makebread/ui/recipe_view.py makebread/ui/print_recipe.py
-msgid "Crust"
-msgstr ""
-
-#: makebread/ui/recipe_view.py makebread/ui/print_recipe.py
-msgid "Machine"
-msgstr ""
-
-#: makebread/ui/recipe_view.py
-msgid "Category"
-msgstr ""
-
-#: makebread/ui/recipe_view.py makebread/ui/print_recipe.py
-msgid "Loaf"
-msgstr ""
-
-#: makebread/ui/print_recipe.py
+#: makebread/ui/print_recipe.py:15
 msgid "Print Recipe"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/print_recipe.py:39
+msgid "Loaf"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:41 makebread/ui/recipe_view.py:79
+msgid "Program"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:43 makebread/ui/recipe_view.py:81
+msgid "Crust"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:45 makebread/ui/recipe_view.py:84
+msgid "Machine"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:53 makebread/ui/recipe_editor.py:136
+#: makebread/ui/recipe_view.py:117
+msgid "Ingredients"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:56 makebread/ui/recipe_editor.py:160
+#: makebread/ui/recipe_view.py:120
+msgid "Instructions"
+msgstr ""
+
+#: makebread/ui/print_recipe.py:59 makebread/ui/recipe_editor.py:167
+#: makebread/ui/recipe_view.py:123
+msgid "Notes"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:38
+msgid "Edit Recipe"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:38
+msgid "New Recipe"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:53
+msgid "Name:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:57
+msgid "Description:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:62
+msgid "Category:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:66
+msgid "Loaf Size:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:71
+msgid "Program:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:75
+msgid "Crust:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:79
+msgid "Brand"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:81
+msgid "Model"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:84
+msgid "Machine:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:87
+msgid "Author:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:91
+msgid "Source URL:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:94
+msgid "comma separated"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:95
+msgid "Tags:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:100
+msgid "Path to bread photo (optional)"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:102
+msgid "Browse..."
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:104
+msgid "Clear"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:109
+msgid "Photo:"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:111
+msgid "Basic Info"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Amount"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Unit"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Ingredient"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Group"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:127
+msgid "+ Add Ingredient"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:129 makebread/ui/recipe_editor.py:153
+msgid "- Remove Selected"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:143
+msgid "Step"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:143
+msgid "Instruction"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:151
+msgid "+ Add Step"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:203
+msgid "Select bread photo"
+msgstr ""
+
+#: makebread/ui/recipe_editor.py:204
+msgid "Images (*.png *.jpg *.jpeg *.webp *.bmp)"
+msgstr ""
+
+#: makebread/ui/recipe_view.py:28
+msgid "makeBread"
+msgstr ""
+
+#: makebread/ui/recipe_view.py:29
+msgid "Select a recipe from the list, or add a new one."
+msgstr ""
+
+#: makebread/ui/recipe_view.py:77
+msgid "Loaf Size"
+msgstr ""
+
+#: makebread/ui/recipe_view.py:86
+msgid "Category"
+msgstr ""
+
+#: makebread/ui/settings_dialog.py:24
 msgid "Settings"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:34
 msgid "Measurement Units"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py makebread/utils/units.py
+#: makebread/ui/settings_dialog.py:38 makebread/utils/units.py:12
 msgid "US (cups, oz, °F)"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py makebread/utils/units.py
+#: makebread/ui/settings_dialog.py:39 makebread/utils/units.py:13
 msgid "Metric (dl, g, °C)"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py makebread/utils/units.py
+#: makebread/ui/settings_dialog.py:40 makebread/utils/units.py:14
 msgid "Imperial (fl oz, oz, °C)"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:41
 msgid "Unit system:"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:43
 msgid "Automatically convert units when displaying recipes"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:46
 msgid ""
 "Original values are preserved in the database.\n"
 "Conversion only affects how recipes are displayed and printed."
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:55
 msgid "Display"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:58
 msgid "Show machine info in recipe list"
 msgstr ""
 
-#: makebread/ui/settings_dialog.py
+#: makebread/ui/settings_dialog.py:61
 msgid "Show category badges"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:20
 msgid "cup"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:20
 msgid "cups"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:21 makebread/utils/units.py:28
+#: makebread/utils/units.py:33
 msgid "tbsp"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:21 makebread/utils/units.py:28
+#: makebread/utils/units.py:33
 msgid "tsp"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "oz"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "lb"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:23 makebread/utils/units.py:31
 msgid "fl oz"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:26
 msgid "dl"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:26 makebread/utils/units.py:31
 msgid "ml"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:26
 msgid "l"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:27
 msgid "g"
 msgstr ""
 
-#: makebread/utils/units.py
+#: makebread/utils/units.py:27
 msgid "kg"
 msgstr ""

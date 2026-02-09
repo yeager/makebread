@@ -107,7 +107,7 @@ class RecipeViewWidget(QWidget):
             )
 
         return f"""
-        <div style="font-family: sans-serif; max-width: 700px; margin: 0 auto; padding: 16px;">
+        <div style="font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 16px;">
             <h1 style="margin-bottom:4px;">{r.name}</h1>
             {image_html}
             {f'<p style="color:#666;">{r.description}</p>' if r.description else ''}

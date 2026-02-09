@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: makebread 0.2.0\n"
+"Project-Id-Version: makeBread 0.3.0\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-09 08:00+0100\n"
+"POT-Creation-Date: 2026-02-09 08:29+0100\n"
 "PO-Revision-Date: 2026-02-09 08:00+0100\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
@@ -17,242 +17,337 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: makebread/ui/main_window.py:24
 msgid "makeBread — Bread Machine Recipe Manager"
 msgstr "makeBread — Recepthanterare för bakmaskin"
 
+#: makebread/ui/main_window.py:41
 msgid "Search recipes..."
 msgstr "Sök recept…"
 
+#: makebread/ui/main_window.py:66 makebread/ui/main_window.py:84
 msgid "&Edit"
 msgstr "&Redigera"
 
+#: makebread/ui/main_window.py:67
 msgid "&Settings..."
 msgstr "&Inställningar…"
 
+#: makebread/ui/main_window.py:70
 msgid "&Help"
 msgstr "&Hjälp"
 
+#: makebread/ui/main_window.py:71
 msgid "&About makeBread"
 msgstr "&Om makeBread"
 
+#: makebread/ui/main_window.py:72 makebread/ui/main_window.py:268
 msgid "Donate ♥"
 msgstr "Donera ♥"
 
+#: makebread/ui/main_window.py:75
 msgid "Main Toolbar"
 msgstr "Huvudverktygsfält"
 
+#: makebread/ui/main_window.py:79
 msgid "&New Recipe"
 msgstr "&Nytt recept"
 
+#: makebread/ui/main_window.py:89
 msgid "&Delete"
 msgstr "&Ta bort"
 
+#: makebread/ui/main_window.py:96
 msgid "🎲 &Random"
 msgstr "🎲 &Slumpa"
 
+#: makebread/ui/main_window.py:101
 msgid "🖨️ &Print"
 msgstr "🖨️ &Skriv ut"
 
+#: makebread/ui/main_window.py:108 makebread/ui/main_window.py:142
+msgid "☆ &Favorite"
+msgstr "☆ &Favorit"
+
+#: makebread/ui/main_window.py:113
+msgid "♥ Favorites &Only"
+msgstr "♥ Bara &favoriter"
+
+#: makebread/ui/main_window.py:131
+#, python-brace-format
 msgid "{count} recipes"
 msgstr "{count} recept"
 
+#: makebread/ui/main_window.py:142
+msgid "★ Un&favorite"
+msgstr "★ Ta bort &favorit"
+
+#: makebread/ui/main_window.py:160
+#, python-brace-format
 msgid "{count} results for '{query}'"
 msgstr "{count} resultat för \"{query}\""
 
+#: makebread/ui/main_window.py:192
 msgid "Delete Recipe"
 msgstr "Ta bort recept"
 
+#: makebread/ui/main_window.py:193
+#, python-brace-format
 msgid "Delete '{name}'?"
 msgstr "Ta bort \"{name}\"?"
 
+#: makebread/ui/main_window.py:210
+#, python-brace-format
 msgid "Random pick: {name}"
 msgstr "Slumpmässigt val: {name}"
 
-msgid ""
-"<p>makeBread is free software.</p>"
-"<p>If you find it useful, consider supporting development:</p>"
-"<p>❤️ <b>GitHub Sponsors:</b> <a href='https://github.com/sponsors/yeager'>"
-"github.com/sponsors/yeager</a></p>"
-"<p>🇸🇪 <b>Swish:</b> +46702526206 — "
-"<a href='swish://payment?payee=0702526206&message=makeBread'>"
-"Open Swish</a></p>"
-msgstr ""
-"<p>makeBread är fri programvara.</p>"
-"<p>Om programmet är användbart, överväg att stödja utvecklingen:</p>"
-"<p>❤️ <b>GitHub Sponsors:</b> <a href='https://github.com/sponsors/yeager'>"
-"github.com/sponsors/yeager</a></p>"
-"<p>🇸🇪 <b>Swish:</b> +46702526206 — "
-"<a href='swish://payment?payee=0702526206&message=makeBread'>"
-"Öppna Swish</a></p>"
+#: makebread/ui/main_window.py:233
+#, python-brace-format
+msgid "Added to favorites: {name}"
+msgstr "Tillagd som favorit: {name}"
 
+#: makebread/ui/main_window.py:234
+#, python-brace-format
+msgid "Removed from favorites: {name}"
+msgstr "Borttagen från favoriter: {name}"
+
+#: makebread/ui/main_window.py:247
+#, python-brace-format
+msgid "{count} favorites"
+msgstr "{count} favoriter"
+
+#: makebread/ui/main_window.py:271
+msgid ""
+"<p>makeBread is free software.</p><p>If you find it useful, consider "
+"supporting development:</p><p>❤️ <b>GitHub Sponsors:</b> <a href='https://"
+"github.com/sponsors/yeager'>github.com/sponsors/yeager</a></p><p>🇸🇪 <b>Swish:"
+"</b> +46702526206 — <a href='swish://payment?"
+"payee=0702526206&message=makeBread'>Open Swish</a></p>"
+msgstr ""
+"<p>makeBread är fri programvara.</p><p>Om programmet är användbart, överväg "
+"att stödja utvecklingen:</p><p>❤️ <b>GitHub Sponsors:</b> <a href='https://"
+"github.com/sponsors/yeager'>github.com/sponsors/yeager</a></p><p>🇸🇪 <b>Swish:"
+"</b> +46702526206 — <a href='swish://payment?"
+"payee=0702526206&message=makeBread'>Öppna Swish</a></p>"
+
+#: makebread/ui/main_window.py:285
 msgid "About makeBread"
 msgstr "Om makeBread"
 
+#: makebread/ui/main_window.py:287
 msgid ""
-"<h3>makeBread</h3>"
-"<p>Bread Machine Recipe Manager</p>"
-"<p>© 2026 Daniel Nylander</p>"
-"<p>License: GPL-3.0-or-later</p>"
-"<p><a href='https://github.com/yeager/makebread'>"
-"github.com/yeager/makebread</a></p>"
+"<h3>makeBread</h3><p>Bread Machine Recipe Manager</p><p>© 2026 Daniel "
+"Nylander</p><p>License: GPL-3.0-or-later</p><p><a href='https://github.com/"
+"yeager/makebread'>github.com/yeager/makebread</a></p>"
 msgstr ""
-"<h3>makeBread</h3>"
-"<p>Recepthanterare för bakmaskin</p>"
-"<p>© 2026 Daniel Nylander</p>"
-"<p>Licens: GPL-3.0-or-later</p>"
-"<p><a href='https://github.com/yeager/makebread'>"
-"github.com/yeager/makebread</a></p>"
+"<h3>makeBread</h3><p>Recepthanterare för bakmaskin</p><p>© 2026 Daniel "
+"Nylander</p><p>Licens: GPL-3.0-or-later</p><p><a href='https://github.com/"
+"yeager/makebread'>github.com/yeager/makebread</a></p>"
 
-msgid "Edit Recipe"
-msgstr "Redigera recept"
-
-msgid "New Recipe"
-msgstr "Nytt recept"
-
-msgid "Name:"
-msgstr "Namn:"
-
-msgid "Description:"
-msgstr "Beskrivning:"
-
-msgid "Category:"
-msgstr "Kategori:"
-
-msgid "Loaf Size:"
-msgstr "Brödstorlek:"
-
-msgid "Program:"
-msgstr "Program:"
-
-msgid "Crust:"
-msgstr "Skorpa:"
-
-msgid "Brand"
-msgstr "Märke"
-
-msgid "Model"
-msgstr "Modell"
-
-msgid "Machine:"
-msgstr "Maskin:"
-
-msgid "Author:"
-msgstr "Författare:"
-
-msgid "Source URL:"
-msgstr "Käll-URL:"
-
-msgid "comma separated"
-msgstr "kommaseparerade"
-
-msgid "Tags:"
-msgstr "Etiketter:"
-
-msgid "Path to bread photo (optional)"
-msgstr "Sökväg till brödfoto (valfritt)"
-
-msgid "Browse..."
-msgstr "Bläddra…"
-
-msgid "Clear"
-msgstr "Rensa"
-
-msgid "Photo:"
-msgstr "Foto:"
-
-msgid "Basic Info"
-msgstr "Grundläggande information"
-
-msgid "Amount"
-msgstr "Mängd"
-
-msgid "Unit"
-msgstr "Enhet"
-
-msgid "Ingredient"
-msgstr "Ingrediens"
-
-msgid "Group"
-msgstr "Grupp"
-
-msgid "+ Add Ingredient"
-msgstr "+ Lägg till ingrediens"
-
-msgid "- Remove Selected"
-msgstr "- Ta bort markerad"
-
-msgid "Ingredients"
-msgstr "Ingredienser"
-
-msgid "Step"
-msgstr "Steg"
-
-msgid "Instruction"
-msgstr "Instruktion"
-
-msgid "+ Add Step"
-msgstr "+ Lägg till steg"
-
-msgid "Instructions"
-msgstr "Instruktioner"
-
-msgid "Notes"
-msgstr "Anteckningar"
-
-msgid "Select bread photo"
-msgstr "Välj brödfoto"
-
-msgid "Images (*.png *.jpg *.jpeg *.webp *.bmp)"
-msgstr "Bilder (*.png *.jpg *.jpeg *.webp *.bmp)"
-
-msgid "makeBread"
-msgstr "makeBread"
-
-msgid "Select a recipe from the list, or add a new one."
-msgstr "Välj ett recept från listan eller lägg till ett nytt."
-
-msgid "Loaf Size"
-msgstr "Brödstorlek"
-
-msgid "Program"
-msgstr "Program"
-
-msgid "Crust"
-msgstr "Skorpa"
-
-msgid "Machine"
-msgstr "Maskin"
-
-msgid "Category"
-msgstr "Kategori"
-
-msgid "Loaf"
-msgstr "Bröd"
-
+#: makebread/ui/print_recipe.py:15
 msgid "Print Recipe"
 msgstr "Skriv ut recept"
 
+#: makebread/ui/print_recipe.py:39
+msgid "Loaf"
+msgstr "Bröd"
+
+#: makebread/ui/print_recipe.py:41 makebread/ui/recipe_view.py:79
+msgid "Program"
+msgstr "Program"
+
+#: makebread/ui/print_recipe.py:43 makebread/ui/recipe_view.py:81
+msgid "Crust"
+msgstr "Skorpa"
+
+#: makebread/ui/print_recipe.py:45 makebread/ui/recipe_view.py:84
+msgid "Machine"
+msgstr "Maskin"
+
+#: makebread/ui/print_recipe.py:53 makebread/ui/recipe_editor.py:136
+#: makebread/ui/recipe_view.py:117
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+#: makebread/ui/print_recipe.py:56 makebread/ui/recipe_editor.py:160
+#: makebread/ui/recipe_view.py:120
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: makebread/ui/print_recipe.py:59 makebread/ui/recipe_editor.py:167
+#: makebread/ui/recipe_view.py:123
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: makebread/ui/recipe_editor.py:38
+msgid "Edit Recipe"
+msgstr "Redigera recept"
+
+#: makebread/ui/recipe_editor.py:38
+msgid "New Recipe"
+msgstr "Nytt recept"
+
+#: makebread/ui/recipe_editor.py:53
+msgid "Name:"
+msgstr "Namn:"
+
+#: makebread/ui/recipe_editor.py:57
+msgid "Description:"
+msgstr "Beskrivning:"
+
+#: makebread/ui/recipe_editor.py:62
+msgid "Category:"
+msgstr "Kategori:"
+
+#: makebread/ui/recipe_editor.py:66
+msgid "Loaf Size:"
+msgstr "Brödstorlek:"
+
+#: makebread/ui/recipe_editor.py:71
+msgid "Program:"
+msgstr "Program:"
+
+#: makebread/ui/recipe_editor.py:75
+msgid "Crust:"
+msgstr "Skorpa:"
+
+#: makebread/ui/recipe_editor.py:79
+msgid "Brand"
+msgstr "Märke"
+
+#: makebread/ui/recipe_editor.py:81
+msgid "Model"
+msgstr "Modell"
+
+#: makebread/ui/recipe_editor.py:84
+msgid "Machine:"
+msgstr "Maskin:"
+
+#: makebread/ui/recipe_editor.py:87
+msgid "Author:"
+msgstr "Författare:"
+
+#: makebread/ui/recipe_editor.py:91
+msgid "Source URL:"
+msgstr "Käll-URL:"
+
+#: makebread/ui/recipe_editor.py:94
+msgid "comma separated"
+msgstr "kommaseparerade"
+
+#: makebread/ui/recipe_editor.py:95
+msgid "Tags:"
+msgstr "Etiketter:"
+
+#: makebread/ui/recipe_editor.py:100
+msgid "Path to bread photo (optional)"
+msgstr "Sökväg till brödfoto (valfritt)"
+
+#: makebread/ui/recipe_editor.py:102
+msgid "Browse..."
+msgstr "Bläddra…"
+
+#: makebread/ui/recipe_editor.py:104
+msgid "Clear"
+msgstr "Rensa"
+
+#: makebread/ui/recipe_editor.py:109
+msgid "Photo:"
+msgstr "Foto:"
+
+#: makebread/ui/recipe_editor.py:111
+msgid "Basic Info"
+msgstr "Grundläggande information"
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Amount"
+msgstr "Mängd"
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Unit"
+msgstr "Enhet"
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Ingredient"
+msgstr "Ingrediens"
+
+#: makebread/ui/recipe_editor.py:119
+msgid "Group"
+msgstr "Grupp"
+
+#: makebread/ui/recipe_editor.py:127
+msgid "+ Add Ingredient"
+msgstr "+ Lägg till ingrediens"
+
+#: makebread/ui/recipe_editor.py:129 makebread/ui/recipe_editor.py:153
+msgid "- Remove Selected"
+msgstr "- Ta bort markerad"
+
+#: makebread/ui/recipe_editor.py:143
+msgid "Step"
+msgstr "Steg"
+
+#: makebread/ui/recipe_editor.py:143
+msgid "Instruction"
+msgstr "Instruktion"
+
+#: makebread/ui/recipe_editor.py:151
+msgid "+ Add Step"
+msgstr "+ Lägg till steg"
+
+#: makebread/ui/recipe_editor.py:203
+msgid "Select bread photo"
+msgstr "Välj brödfoto"
+
+#: makebread/ui/recipe_editor.py:204
+msgid "Images (*.png *.jpg *.jpeg *.webp *.bmp)"
+msgstr "Bilder (*.png *.jpg *.jpeg *.webp *.bmp)"
+
+#: makebread/ui/recipe_view.py:28
+msgid "makeBread"
+msgstr "makeBread"
+
+#: makebread/ui/recipe_view.py:29
+msgid "Select a recipe from the list, or add a new one."
+msgstr "Välj ett recept från listan eller lägg till ett nytt."
+
+#: makebread/ui/recipe_view.py:77
+msgid "Loaf Size"
+msgstr "Brödstorlek"
+
+#: makebread/ui/recipe_view.py:86
+msgid "Category"
+msgstr "Kategori"
+
+#: makebread/ui/settings_dialog.py:24
 msgid "Settings"
 msgstr "Inställningar"
 
+#: makebread/ui/settings_dialog.py:34
 msgid "Measurement Units"
 msgstr "Måttenheter"
 
+#: makebread/ui/settings_dialog.py:38 makebread/utils/units.py:12
 msgid "US (cups, oz, °F)"
 msgstr "Amerikanskt (cups, oz, °F)"
 
+#: makebread/ui/settings_dialog.py:39 makebread/utils/units.py:13
 msgid "Metric (dl, g, °C)"
 msgstr "Metriskt (dl, g, °C)"
 
+#: makebread/ui/settings_dialog.py:40 makebread/utils/units.py:14
 msgid "Imperial (fl oz, oz, °C)"
 msgstr "Brittiskt (fl oz, oz, °C)"
 
+#: makebread/ui/settings_dialog.py:41
 msgid "Unit system:"
 msgstr "Enhetssystem:"
 
+#: makebread/ui/settings_dialog.py:43
 msgid "Automatically convert units when displaying recipes"
 msgstr "Konvertera enheter automatiskt vid visning av recept"
 
+#: makebread/ui/settings_dialog.py:46
 msgid ""
 "Original values are preserved in the database.\n"
 "Conversion only affects how recipes are displayed and printed."
@@ -260,47 +355,64 @@ msgstr ""
 "Originalvärden bevaras i databasen.\n"
 "Konvertering påverkar endast hur recept visas och skrivs ut."
 
+#: makebread/ui/settings_dialog.py:55
 msgid "Display"
 msgstr "Visning"
 
+#: makebread/ui/settings_dialog.py:58
 msgid "Show machine info in recipe list"
 msgstr "Visa maskininformation i receptlistan"
 
+#: makebread/ui/settings_dialog.py:61
 msgid "Show category badges"
 msgstr "Visa kategorimärken"
 
+#: makebread/utils/units.py:20
 msgid "cup"
 msgstr "cup"
 
+#: makebread/utils/units.py:20
 msgid "cups"
 msgstr "cups"
 
+#: makebread/utils/units.py:21 makebread/utils/units.py:28
+#: makebread/utils/units.py:33
 msgid "tbsp"
 msgstr "msk"
 
+#: makebread/utils/units.py:21 makebread/utils/units.py:28
+#: makebread/utils/units.py:33
 msgid "tsp"
 msgstr "tsk"
 
+#: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "oz"
 msgstr "oz"
 
+#: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "lb"
 msgstr "lb"
 
+#: makebread/utils/units.py:23 makebread/utils/units.py:31
 msgid "fl oz"
 msgstr "fl oz"
 
+#: makebread/utils/units.py:26
 msgid "dl"
 msgstr "dl"
 
+#: makebread/utils/units.py:26 makebread/utils/units.py:31
 msgid "ml"
 msgstr "ml"
 
+#: makebread/utils/units.py:26
 msgid "l"
 msgstr "l"
 
+#: makebread/utils/units.py:27
 msgid "g"
 msgstr "g"
 
+#: makebread/utils/units.py:27
 msgid "kg"
 msgstr "kg"

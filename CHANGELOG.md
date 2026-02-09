@@ -2,6 +2,19 @@
 
 All notable changes to makeBread will be documented in this file.
 
+## [0.3.0] - 2026-02-09
+
+### Added
+- Favorite toggle button (☆/★) in toolbar (Ctrl+F)
+- Favorites Only filter to show only favorite recipes
+- Favorites shown with ★ prefix in recipe list
+
+### Fixed
+- Font family warning on macOS (use system font stack)
+
+### Updated
+- Swedish translations (92 strings, 100% coverage)
+
 ## [0.2.0] - 2026-02-09
 
 ### Added
