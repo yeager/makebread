@@ -1,14 +1,9 @@
-"""Recipe editor dialog."""
+"""Recipe editor dialog — GTK4/Adwaita."""
 
-from PySide6.QtWidgets import (
-    QDialog, QVBoxLayout, QHBoxLayout, QFormLayout,
-    QLineEdit, QTextEdit, QComboBox, QSpinBox,
-    QPushButton, QTableWidget, QTableWidgetItem,
-    QTabWidget, QWidget, QDialogButtonBox, QHeaderView,
-    QLabel, QFileDialog
-)
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QPixmap
+import gi
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
+from gi.repository import Adw, Gtk, GObject
 
 from makebread.i18n import _
 from makebread.models.recipe import Recipe, Ingredient, Instruction
@@ -31,267 +26,330 @@ PROGRAMS = [
 CRUST_SETTINGS = ["light", "medium", "dark"]
 
 
-class RecipeEditorDialog(QDialog):
-    def __init__(self, parent=None, recipe: Recipe = None):
-        super().__init__(parent)
+class RecipeEditorDialog(Adw.Dialog):
+    __gsignals__ = {
+        "saved": (GObject.SignalFlags.RUN_LAST, None, (int,)),
+    }
+
+    def __init__(self, window, recipe: Recipe = None):
+        super().__init__()
+        self.window = window
+        self.store = window.store
         self.recipe = recipe
-        self.setWindowTitle(_("Edit Recipe") if recipe else _("New Recipe"))
-        self.setMinimumSize(650, 550)
+        self.set_title(_("Edit Recipe") if recipe else _("New Recipe"))
+        self.set_content_width(650)
+        self.set_content_height(600)
+
+        self._ingredient_rows = []
+        self._instruction_rows = []
+
         self._setup_ui()
         if recipe:
             self._populate(recipe)
 
     def _setup_ui(self):
-        layout = QVBoxLayout(self)
-        tabs = QTabWidget()
+        toolbarview = Adw.ToolbarView()
 
-        # Tab 1: Basic info
-        basic = QWidget()
-        form = QFormLayout(basic)
+        # Header
+        header = Adw.HeaderBar()
+        cancel_btn = Gtk.Button(label=_("Cancel"))
+        cancel_btn.connect("clicked", lambda *_: self.close())
+        header.pack_start(cancel_btn)
 
-        self.name_edit = QLineEdit()
-        form.addRow(_("Name:"), self.name_edit)
+        save_btn = Gtk.Button(label=_("Save"))
+        save_btn.add_css_class("suggested-action")
+        save_btn.connect("clicked", self._on_save)
+        header.pack_end(save_btn)
 
-        self.desc_edit = QTextEdit()
-        self.desc_edit.setMaximumHeight(60)
-        form.addRow(_("Description:"), self.desc_edit)
+        toolbarview.add_top_bar(header)
 
-        self.category_combo = QComboBox()
-        self.category_combo.addItems(CATEGORIES)
-        self.category_combo.setEditable(True)
-        form.addRow(_("Category:"), self.category_combo)
+        # Notebook (ViewStack)
+        stack = Adw.ViewStack()
 
-        self.loaf_combo = QComboBox()
-        self.loaf_combo.addItems(LOAF_SIZES)
-        form.addRow(_("Loaf Size:"), self.loaf_combo)
+        # --- Basic Info page ---
+        basic_page = self._build_basic_page()
+        stack.add_titled(basic_page, "basic", _("Basic Info"))
 
-        self.program_combo = QComboBox()
-        self.program_combo.addItems(PROGRAMS)
-        self.program_combo.setEditable(True)
-        form.addRow(_("Program:"), self.program_combo)
+        # --- Ingredients page ---
+        ing_page = self._build_ingredients_page()
+        stack.add_titled(ing_page, "ingredients", _("Ingredients"))
 
-        self.crust_combo = QComboBox()
-        self.crust_combo.addItems(CRUST_SETTINGS)
-        form.addRow(_("Crust:"), self.crust_combo)
+        # --- Instructions page ---
+        inst_page = self._build_instructions_page()
+        stack.add_titled(inst_page, "instructions", _("Instructions"))
 
-        row_h = QHBoxLayout()
-        self.brand_edit = QLineEdit()
-        self.brand_edit.setPlaceholderText(_("Brand"))
-        self.model_edit = QLineEdit()
-        self.model_edit.setPlaceholderText(_("Model"))
-        row_h.addWidget(self.brand_edit)
-        row_h.addWidget(self.model_edit)
-        form.addRow(_("Machine:"), row_h)
+        # --- Notes page ---
+        notes_page = self._build_notes_page()
+        stack.add_titled(notes_page, "notes", _("Notes"))
 
-        self.author_edit = QLineEdit()
-        form.addRow(_("Author:"), self.author_edit)
+        # Switcher bar
+        switcher = Adw.ViewSwitcherBar(stack=stack, reveal=True)
 
-        self.source_edit = QLineEdit()
-        self.source_edit.setPlaceholderText("https://...")
-        form.addRow(_("Source URL:"), self.source_edit)
+        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        main_box.append(stack)
+        main_box.append(switcher)
 
-        self.tags_edit = QLineEdit()
-        self.tags_edit.setPlaceholderText(_("comma separated"))
-        form.addRow(_("Tags:"), self.tags_edit)
+        toolbarview.set_content(main_box)
+        self.set_child(toolbarview)
 
-        # Image
-        img_row = QHBoxLayout()
-        self.image_path_edit = QLineEdit()
-        self.image_path_edit.setPlaceholderText(_("Path to bread photo (optional)"))
-        self.image_path_edit.setReadOnly(True)
-        browse_img_btn = QPushButton(_("Browse..."))
-        browse_img_btn.clicked.connect(self._browse_image)
-        clear_img_btn = QPushButton(_("Clear"))
-        clear_img_btn.clicked.connect(lambda: self.image_path_edit.clear())
-        img_row.addWidget(self.image_path_edit)
-        img_row.addWidget(browse_img_btn)
-        img_row.addWidget(clear_img_btn)
-        form.addRow(_("Photo:"), img_row)
+    def _build_basic_page(self):
+        scrolled = Gtk.ScrolledWindow(vexpand=True)
+        clamp = Adw.Clamp(maximum_size=600)
+        clamp.set_margin_start(12)
+        clamp.set_margin_end(12)
+        clamp.set_margin_top(12)
+        clamp.set_margin_bottom(12)
 
-        tabs.addTab(basic, _("Basic Info"))
+        group = Adw.PreferencesGroup(title=_("Recipe Details"))
 
-        # Tab 2: Ingredients
-        ing_tab = QWidget()
-        ing_layout = QVBoxLayout(ing_tab)
+        self.name_row = Adw.EntryRow(title=_("Name"))
+        group.add(self.name_row)
 
-        self.ing_table = QTableWidget(0, 4)
-        self.ing_table.setHorizontalHeaderLabels(
-            [_("Amount"), _("Unit"), _("Ingredient"), _("Group")]
-        )
-        self.ing_table.horizontalHeader().setSectionResizeMode(
-            2, QHeaderView.ResizeMode.Stretch
-        )
-        ing_layout.addWidget(self.ing_table)
+        self.desc_row = Adw.EntryRow(title=_("Description"))
+        group.add(self.desc_row)
 
-        btn_row = QHBoxLayout()
-        add_btn = QPushButton(_("+ Add Ingredient"))
-        add_btn.clicked.connect(self._add_ingredient_row)
-        remove_btn = QPushButton(_("- Remove Selected"))
-        remove_btn.clicked.connect(self._remove_ingredient_row)
-        btn_row.addWidget(add_btn)
-        btn_row.addWidget(remove_btn)
-        btn_row.addStretch()
-        ing_layout.addLayout(btn_row)
+        self.category_row = Adw.ComboRow(title=_("Category"))
+        cat_model = Gtk.StringList.new(CATEGORIES)
+        self.category_row.set_model(cat_model)
+        group.add(self.category_row)
 
-        tabs.addTab(ing_tab, _("Ingredients"))
+        self.loaf_row = Adw.ComboRow(title=_("Loaf Size"))
+        loaf_model = Gtk.StringList.new(LOAF_SIZES)
+        self.loaf_row.set_model(loaf_model)
+        group.add(self.loaf_row)
 
-        # Tab 3: Instructions
-        inst_tab = QWidget()
-        inst_layout = QVBoxLayout(inst_tab)
+        self.program_row = Adw.ComboRow(title=_("Program"))
+        prog_model = Gtk.StringList.new(PROGRAMS)
+        self.program_row.set_model(prog_model)
+        group.add(self.program_row)
 
-        self.inst_table = QTableWidget(0, 2)
-        self.inst_table.setHorizontalHeaderLabels([_("Step"), _("Instruction")])
-        self.inst_table.horizontalHeader().setSectionResizeMode(
-            1, QHeaderView.ResizeMode.Stretch
-        )
-        self.inst_table.setColumnWidth(0, 50)
-        inst_layout.addWidget(self.inst_table)
+        self.crust_row = Adw.ComboRow(title=_("Crust"))
+        crust_model = Gtk.StringList.new(CRUST_SETTINGS)
+        self.crust_row.set_model(crust_model)
+        group.add(self.crust_row)
 
-        btn_row2 = QHBoxLayout()
-        add_inst_btn = QPushButton(_("+ Add Step"))
-        add_inst_btn.clicked.connect(self._add_instruction_row)
-        remove_inst_btn = QPushButton(_("- Remove Selected"))
-        remove_inst_btn.clicked.connect(self._remove_instruction_row)
-        btn_row2.addWidget(add_inst_btn)
-        btn_row2.addWidget(remove_inst_btn)
-        btn_row2.addStretch()
-        inst_layout.addLayout(btn_row2)
+        self.brand_row = Adw.EntryRow(title=_("Machine Brand"))
+        group.add(self.brand_row)
 
-        tabs.addTab(inst_tab, _("Instructions"))
+        self.model_row = Adw.EntryRow(title=_("Machine Model"))
+        group.add(self.model_row)
 
-        # Tab 4: Notes
-        notes_tab = QWidget()
-        notes_layout = QVBoxLayout(notes_tab)
-        self.notes_edit = QTextEdit()
-        notes_layout.addWidget(self.notes_edit)
-        tabs.addTab(notes_tab, _("Notes"))
+        self.author_row = Adw.EntryRow(title=_("Author"))
+        group.add(self.author_row)
 
-        layout.addWidget(tabs)
+        self.source_row = Adw.EntryRow(title=_("Source URL"))
+        group.add(self.source_row)
 
-        # Dialog buttons
-        buttons = QDialogButtonBox(
-            QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel
-        )
-        buttons.accepted.connect(self.accept)
-        buttons.rejected.connect(self.reject)
-        layout.addWidget(buttons)
+        self.tags_row = Adw.EntryRow(title=_("Tags (comma separated)"))
+        group.add(self.tags_row)
 
-    def _add_ingredient_row(self):
-        row = self.ing_table.rowCount()
-        self.ing_table.insertRow(row)
-        for col in range(4):
-            self.ing_table.setItem(row, col, QTableWidgetItem(""))
+        clamp.set_child(group)
+        scrolled.set_child(clamp)
+        return scrolled
 
-    def _remove_ingredient_row(self):
-        row = self.ing_table.currentRow()
-        if row >= 0:
-            self.ing_table.removeRow(row)
+    def _build_ingredients_page(self):
+        box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
 
-    def _add_instruction_row(self):
-        row = self.inst_table.rowCount()
-        self.inst_table.insertRow(row)
-        self.inst_table.setItem(row, 0, QTableWidgetItem(str(row + 1)))
-        self.inst_table.setItem(row, 1, QTableWidgetItem(""))
+        scrolled = Gtk.ScrolledWindow(vexpand=True)
+        self.ing_list = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE)
+        self.ing_list.add_css_class("boxed-list")
+        self.ing_list.set_margin_start(12)
+        self.ing_list.set_margin_end(12)
+        self.ing_list.set_margin_top(12)
+        scrolled.set_child(self.ing_list)
+        box.append(scrolled)
 
-    def _remove_instruction_row(self):
-        row = self.inst_table.currentRow()
-        if row >= 0:
-            self.inst_table.removeRow(row)
+        btn_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8,
+                          halign=Gtk.Align.CENTER)
+        btn_box.set_margin_top(8)
+        btn_box.set_margin_bottom(8)
 
-    def _browse_image(self):
-        path, _ = QFileDialog.getOpenFileName(
-            self, _("Select bread photo"),
-            "", _("Images (*.png *.jpg *.jpeg *.webp *.bmp)")
-        )
-        if path:
-            self.image_path_edit.setText(path)
+        add_btn = Gtk.Button(label=_("+ Add Ingredient"))
+        add_btn.connect("clicked", lambda *_: self._add_ingredient_row())
+        btn_box.append(add_btn)
+
+        box.append(btn_box)
+        return box
+
+    def _add_ingredient_row(self, amount="", unit="", name="", group=""):
+        row = Adw.ActionRow(title=name or _("New ingredient"))
+        
+        # Amount
+        amount_entry = Gtk.Entry(placeholder_text=_("Amount"), text=amount, width_chars=6)
+        amount_entry.set_valign(Gtk.Align.CENTER)
+        row.add_prefix(amount_entry)
+
+        # Unit
+        unit_entry = Gtk.Entry(placeholder_text=_("Unit"), text=unit, width_chars=6)
+        unit_entry.set_valign(Gtk.Align.CENTER)
+        row.add_prefix(unit_entry)
+
+        # Name
+        name_entry = Gtk.Entry(placeholder_text=_("Ingredient"), text=name, hexpand=True)
+        name_entry.set_valign(Gtk.Align.CENTER)
+        name_entry.connect("changed", lambda e: row.set_title(e.get_text() or _("New ingredient")))
+        row.add_suffix(name_entry)
+
+        # Remove button
+        rm_btn = Gtk.Button(icon_name="list-remove-symbolic", valign=Gtk.Align.CENTER)
+        rm_btn.add_css_class("flat")
+        rm_btn.connect("clicked", lambda *_: self._remove_ing_row(row))
+        row.add_suffix(rm_btn)
+
+        self.ing_list.append(row)
+        self._ingredient_rows.append((row, amount_entry, unit_entry, name_entry))
+
+    def _remove_ing_row(self, row):
+        self._ingredient_rows = [(r, a, u, n) for r, a, u, n in self._ingredient_rows if r != row]
+        self.ing_list.remove(row)
+
+    def _build_instructions_page(self):
+        box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
+
+        scrolled = Gtk.ScrolledWindow(vexpand=True)
+        self.inst_list = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE)
+        self.inst_list.add_css_class("boxed-list")
+        self.inst_list.set_margin_start(12)
+        self.inst_list.set_margin_end(12)
+        self.inst_list.set_margin_top(12)
+        scrolled.set_child(self.inst_list)
+        box.append(scrolled)
+
+        btn_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8,
+                          halign=Gtk.Align.CENTER)
+        btn_box.set_margin_top(8)
+        btn_box.set_margin_bottom(8)
+
+        add_btn = Gtk.Button(label=_("+ Add Step"))
+        add_btn.connect("clicked", lambda *_: self._add_instruction_row())
+        btn_box.append(add_btn)
+
+        box.append(btn_box)
+        return box
+
+    def _add_instruction_row(self, text=""):
+        step_num = len(self._instruction_rows) + 1
+        row = Adw.ActionRow(title=f"{_('Step')} {step_num}")
+
+        text_entry = Gtk.Entry(placeholder_text=_("Instruction"), text=text, hexpand=True)
+        text_entry.set_valign(Gtk.Align.CENTER)
+        row.add_suffix(text_entry)
+
+        rm_btn = Gtk.Button(icon_name="list-remove-symbolic", valign=Gtk.Align.CENTER)
+        rm_btn.add_css_class("flat")
+        rm_btn.connect("clicked", lambda *_: self._remove_inst_row(row))
+        row.add_suffix(rm_btn)
+
+        self.inst_list.append(row)
+        self._instruction_rows.append((row, text_entry))
+
+    def _remove_inst_row(self, row):
+        self._instruction_rows = [(r, t) for r, t in self._instruction_rows if r != row]
+        self.inst_list.remove(row)
+
+    def _build_notes_page(self):
+        scrolled = Gtk.ScrolledWindow(vexpand=True)
+        self.notes_view = Gtk.TextView(wrap_mode=Gtk.WrapMode.WORD)
+        self.notes_view.set_margin_start(12)
+        self.notes_view.set_margin_end(12)
+        self.notes_view.set_margin_top(12)
+        self.notes_view.set_margin_bottom(12)
+        scrolled.set_child(self.notes_view)
+        return scrolled
 
     def _populate(self, r: Recipe):
-        self.name_edit.setText(r.name)
-        self.desc_edit.setPlainText(r.description)
-        idx = self.category_combo.findText(r.category)
-        if idx >= 0:
-            self.category_combo.setCurrentIndex(idx)
-        else:
-            self.category_combo.setCurrentText(r.category)
-        idx = self.loaf_combo.findText(r.loaf_size)
-        if idx >= 0:
-            self.loaf_combo.setCurrentIndex(idx)
-        idx = self.program_combo.findText(r.machine_program)
-        if idx >= 0:
-            self.program_combo.setCurrentIndex(idx)
-        else:
-            self.program_combo.setCurrentText(r.machine_program)
-        idx = self.crust_combo.findText(r.crust_setting)
-        if idx >= 0:
-            self.crust_combo.setCurrentIndex(idx)
-        self.brand_edit.setText(r.machine_brand)
-        self.model_edit.setText(r.machine_model)
-        self.author_edit.setText(r.author)
-        self.source_edit.setText(r.source_url)
-        self.tags_edit.setText(", ".join(r.tags))
-        self.notes_edit.setPlainText(r.notes)
-        if r.image_path:
-            self.image_path_edit.setText(r.image_path)
+        self.name_row.set_text(r.name)
+        self.desc_row.set_text(r.description)
+
+        # Set combo rows
+        try:
+            idx = CATEGORIES.index(r.category)
+            self.category_row.set_selected(idx)
+        except ValueError:
+            pass
+        try:
+            idx = LOAF_SIZES.index(r.loaf_size)
+            self.loaf_row.set_selected(idx)
+        except ValueError:
+            pass
+        try:
+            idx = PROGRAMS.index(r.machine_program)
+            self.program_row.set_selected(idx)
+        except ValueError:
+            pass
+        try:
+            idx = CRUST_SETTINGS.index(r.crust_setting)
+            self.crust_row.set_selected(idx)
+        except ValueError:
+            pass
+
+        self.brand_row.set_text(r.machine_brand)
+        self.model_row.set_text(r.machine_model)
+        self.author_row.set_text(r.author)
+        self.source_row.set_text(r.source_url)
+        self.tags_row.set_text(", ".join(r.tags))
+        self.notes_view.get_buffer().set_text(r.notes)
 
         for ing in r.ingredients:
-            row = self.ing_table.rowCount()
-            self.ing_table.insertRow(row)
-            self.ing_table.setItem(row, 0, QTableWidgetItem(ing.amount))
-            self.ing_table.setItem(row, 1, QTableWidgetItem(ing.unit))
-            self.ing_table.setItem(row, 2, QTableWidgetItem(ing.name))
-            self.ing_table.setItem(row, 3, QTableWidgetItem(ing.group_name))
+            self._add_ingredient_row(ing.amount, ing.unit, ing.name, ing.group_name)
 
         for inst in r.instructions:
-            row = self.inst_table.rowCount()
-            self.inst_table.insertRow(row)
-            self.inst_table.setItem(row, 0, QTableWidgetItem(str(inst.step_number)))
-            self.inst_table.setItem(row, 1, QTableWidgetItem(inst.text))
+            self._add_instruction_row(inst.text)
 
-    def get_recipe(self) -> Recipe:
-        """Build a Recipe from the editor fields."""
-        tags_text = self.tags_edit.text().strip()
+    def _on_save(self, *args):
+        name = self.name_row.get_text().strip()
+        if not name:
+            return
+
+        tags_text = self.tags_row.get_text().strip()
         tags = [t.strip() for t in tags_text.split(",") if t.strip()] if tags_text else []
 
+        buf = self.notes_view.get_buffer()
+        notes = buf.get_text(buf.get_start_iter(), buf.get_end_iter(), False)
+
+        def get_combo_text(combo_row, options):
+            idx = combo_row.get_selected()
+            if 0 <= idx < len(options):
+                return options[idx]
+            return options[0] if options else ""
+
         recipe = Recipe(
-            name=self.name_edit.text().strip(),
-            description=self.desc_edit.toPlainText().strip(),
-            category=self.category_combo.currentText(),
-            loaf_size=self.loaf_combo.currentText(),
-            machine_program=self.program_combo.currentText(),
-            crust_setting=self.crust_combo.currentText(),
-            machine_brand=self.brand_edit.text().strip(),
-            machine_model=self.model_edit.text().strip(),
-            author=self.author_edit.text().strip(),
-            source_url=self.source_edit.text().strip(),
-            notes=self.notes_edit.toPlainText().strip(),
+            name=name,
+            description=self.desc_row.get_text().strip(),
+            category=get_combo_text(self.category_row, CATEGORIES),
+            loaf_size=get_combo_text(self.loaf_row, LOAF_SIZES),
+            machine_program=get_combo_text(self.program_row, PROGRAMS),
+            crust_setting=get_combo_text(self.crust_row, CRUST_SETTINGS),
+            machine_brand=self.brand_row.get_text().strip(),
+            machine_model=self.model_row.get_text().strip(),
+            author=self.author_row.get_text().strip(),
+            source_url=self.source_row.get_text().strip(),
+            notes=notes.strip(),
             tags=tags,
-            image_path=self.image_path_edit.text().strip(),
         )
         if self.recipe:
             recipe.id = self.recipe.id
+            recipe.favorite = self.recipe.favorite
 
         # Ingredients
-        for row in range(self.ing_table.rowCount()):
-            name = (self.ing_table.item(row, 2) or QTableWidgetItem("")).text().strip()
-            if not name:
+        for row, amount_e, unit_e, name_e in self._ingredient_rows:
+            ing_name = name_e.get_text().strip()
+            if not ing_name:
                 continue
             recipe.ingredients.append(Ingredient(
-                amount=(self.ing_table.item(row, 0) or QTableWidgetItem("")).text().strip(),
-                unit=(self.ing_table.item(row, 1) or QTableWidgetItem("")).text().strip(),
-                name=name,
-                group_name=(self.ing_table.item(row, 3) or QTableWidgetItem("")).text().strip(),
-                sort_order=row,
+                amount=amount_e.get_text().strip(),
+                unit=unit_e.get_text().strip(),
+                name=ing_name,
+                sort_order=len(recipe.ingredients),
             ))
 
         # Instructions
-        for row in range(self.inst_table.rowCount()):
-            text = (self.inst_table.item(row, 1) or QTableWidgetItem("")).text().strip()
+        for i, (row, text_e) in enumerate(self._instruction_rows):
+            text = text_e.get_text().strip()
             if not text:
                 continue
-            recipe.instructions.append(Instruction(
-                step_number=row + 1,
-                text=text,
-            ))
+            recipe.instructions.append(Instruction(step_number=i + 1, text=text))
 
-        return recipe
+        rid = self.store.save(recipe)
+        self.emit("saved", rid)
+        self.close()

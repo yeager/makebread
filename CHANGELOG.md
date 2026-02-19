@@ -2,6 +2,21 @@
 
 All notable changes to makeBread will be documented in this file.
 
+## [0.4.0] - 2026-02-19
+
+### Changed
+- **Complete rewrite from PySide6/Qt to GTK4/Adwaita** (libadwaita)
+- Modern GNOME-native UI with Adw.NavigationSplitView, Adw.Dialog, Adw.PreferencesGroup
+- Uses Adw.AboutDialog (not deprecated Adw.AboutWindow)
+- Adw.AlertDialog for confirmations
+- Adw.ViewStack + ViewSwitcherBar for editor tabs
+- Settings now use INI file (XDG_CONFIG_HOME) instead of QSettings
+- Dependency changed from PySide6 to PyGObject
+
+### Removed
+- Print support (temporarily — Qt print dialog replaced, GTK4 print TBD)
+- Image/photo support in editor (GTK4 file chooser portal TBD)
+
 ## [0.3.0] - 2026-02-09
 
 ### Added
