@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-19 18:17+0000\n"
+"POT-Creation-Date: 2026-02-21 06:38+0000\n"
 "PO-Revision-Date: 2026-02-19 18:17+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/305057/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,247 +23,247 @@ msgstr ""
 
 #: makebread/ui/recipe_editor.py:167
 msgid "+ Add Ingredient"
-msgstr ""
+msgstr "+ Lägg till ingrediens"
 
 #: makebread/ui/recipe_editor.py:223
 msgid "+ Add Step"
-msgstr ""
+msgstr "+ Lägg till steg"
 
 #: makebread/ui/main_window.py:55
 msgid "About makeBread"
-msgstr ""
+msgstr "Om makeBread"
 
 #: makebread/ui/recipe_editor.py:178
 msgid "Amount"
-msgstr ""
+msgstr "Mängd"
 
 #: makebread/ui/recipe_editor.py:137
 msgid "Author"
-msgstr ""
+msgstr "Upphovsperson"
 
 #: makebread/ui/recipe_editor.py:71
 msgid "Basic Info"
-msgstr ""
+msgstr "Grundläggande information"
 
 #: makebread/ui/application.py:68
 msgid "Bread Machine Recipe Manager"
-msgstr ""
+msgstr "Recepthanterare för brödbakmaskin"
 
-#: makebread/ui/recipe_editor.py:55 makebread/ui/main_window.py:248
+#: makebread/ui/main_window.py:248 makebread/ui/recipe_editor.py:55
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: makebread/ui/recipe_editor.py:111
 msgid "Category"
-msgstr ""
+msgstr "Kategori"
 
 #: makebread/ui/recipe_editor.py:126
 msgid "Crust"
-msgstr ""
+msgstr "Skorpa"
 
 #: makebread/ui/main_window.py:121 makebread/ui/main_window.py:249
 msgid "Delete"
-msgstr ""
+msgstr "Radera"
 
 #: makebread/ui/main_window.py:246
 #, python-brace-format
 msgid "Delete '{name}'?"
-msgstr ""
+msgstr "Radera '{name}'?"
 
 #: makebread/ui/main_window.py:245
 msgid "Delete Recipe"
-msgstr ""
+msgstr "Ta bort recept"
 
 #: makebread/ui/recipe_editor.py:108
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
 #: makebread/ui/main_window.py:117
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 #: makebread/ui/recipe_editor.py:39
 msgid "Edit Recipe"
-msgstr ""
+msgstr "Redigera recept"
 
 #: makebread/utils/units.py:14
 msgid "Imperial (fl oz, oz, °C)"
-msgstr ""
+msgstr "Imperial (fl oz, oz, °C)"
 
 #: makebread/ui/recipe_editor.py:188
 msgid "Ingredient"
-msgstr ""
+msgstr "Ingrediens"
 
-#: makebread/ui/recipe_editor.py:75 makebread/ui/recipe_view.py:97
+#: makebread/ui/recipe_view.py:97 makebread/ui/recipe_editor.py:75
 msgid "Ingredients"
-msgstr ""
+msgstr "Ingredienser"
 
 #: makebread/ui/recipe_editor.py:234
 msgid "Instruction"
-msgstr ""
+msgstr "Instruktion"
 
-#: makebread/ui/recipe_editor.py:79 makebread/ui/recipe_view.py:123
+#: makebread/ui/recipe_view.py:123 makebread/ui/recipe_editor.py:79
 msgid "Instructions"
-msgstr ""
+msgstr "Instruktioner"
 
 #: makebread/ui/recipe_editor.py:116
 msgid "Loaf Size"
-msgstr ""
+msgstr "Limpstorlek"
 
 #: makebread/ui/recipe_editor.py:131
 msgid "Machine Brand"
-msgstr ""
+msgstr "Maskinmärke"
 
 #: makebread/ui/recipe_editor.py:134
 msgid "Machine Model"
-msgstr ""
+msgstr "Maskinmodell"
 
 #: makebread/utils/units.py:13
 msgid "Metric (dl, g, °C)"
-msgstr ""
+msgstr "Metriska enheter (dl, g, °C)"
 
 #: makebread/ui/recipe_editor.py:105
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
-#: makebread/ui/recipe_editor.py:39 makebread/ui/main_window.py:60
+#: makebread/ui/main_window.py:60 makebread/ui/recipe_editor.py:39
 msgid "New Recipe"
-msgstr ""
+msgstr "Nytt recept"
 
 #: makebread/ui/recipe_editor.py:175 makebread/ui/recipe_editor.py:190
 msgid "New ingredient"
-msgstr ""
+msgstr "Ny ingrediens"
 
-#: makebread/ui/recipe_editor.py:83 makebread/ui/recipe_view.py:136
+#: makebread/ui/recipe_view.py:136 makebread/ui/recipe_editor.py:83
 msgid "Notes"
-msgstr ""
+msgstr "Anmärkningar"
 
 #: makebread/ui/recipe_editor.py:121
 msgid "Program"
-msgstr ""
+msgstr "Program"
 
 #: makebread/ui/main_window.py:270
 #, python-brace-format
 msgid "Random pick: {name}"
-msgstr ""
+msgstr "Slumpmässigt val: {name}"
 
 #: makebread/ui/main_window.py:111
 msgid "Recipe"
-msgstr ""
+msgstr "Recept"
 
 #: makebread/ui/recipe_editor.py:103
 msgid "Recipe Details"
-msgstr ""
+msgstr "Receptdetaljer"
 
 #: makebread/ui/main_window.py:46
 msgid "Recipes"
-msgstr ""
+msgstr "Recept"
 
 #: makebread/ui/recipe_editor.py:59
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 #: makebread/ui/main_window.py:67
 msgid "Search recipes…"
-msgstr ""
+msgstr "Sök efter recept…"
 
 #: makebread/ui/recipe_view.py:38
 msgid "Select a recipe from the list, or add a new one."
-msgstr ""
+msgstr "Välj ett recept från listan eller lägg till ett nytt."
 
 #: makebread/ui/recipe_editor.py:140
 msgid "Source URL"
-msgstr ""
+msgstr "Käll-URL"
 
 #: makebread/ui/recipe_editor.py:143
 msgid "Tags (comma separated)"
-msgstr ""
+msgstr "Taggar (kommaseparerade)"
 
 #: makebread/ui/main_window.py:125
 msgid "Toggle Favorite"
-msgstr ""
+msgstr "Växla favorit"
 
 #: makebread/utils/units.py:12
 msgid "US (cups, oz, °F)"
-msgstr ""
+msgstr "USA (koppar, oz, °F)"
 
 #: makebread/ui/recipe_editor.py:183
 msgid "Unit"
-msgstr ""
+msgstr "Enhet"
 
 #: makebread/utils/units.py:20
 msgid "cup"
-msgstr ""
+msgstr "kopp"
 
 #: makebread/utils/units.py:20
 msgid "cups"
-msgstr ""
+msgstr "koppar"
 
 #: makebread/utils/units.py:26
 msgid "dl"
-msgstr ""
+msgstr "dl"
 
 #: makebread/utils/units.py:23 makebread/utils/units.py:31
 msgid "fl oz"
-msgstr ""
+msgstr "fl oz"
 
 #: makebread/utils/units.py:27
 msgid "g"
-msgstr ""
+msgstr "g"
 
 #: makebread/utils/units.py:27
 msgid "kg"
-msgstr ""
+msgstr "kg"
 
 #: makebread/utils/units.py:26
 msgid "l"
-msgstr ""
+msgstr "l"
 
 #: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "lb"
-msgstr ""
+msgstr "lb"
 
 #: makebread/ui/main_window.py:35
 msgid "makeBread"
-msgstr ""
+msgstr "makeBread"
 
 #: makebread/utils/units.py:26 makebread/utils/units.py:31
 msgid "ml"
-msgstr ""
+msgstr "ml"
 
 #: makebread/utils/units.py:22 makebread/utils/units.py:32
 msgid "oz"
-msgstr ""
+msgstr "oz"
 
 #: makebread/utils/units.py:21 makebread/utils/units.py:28
 #: makebread/utils/units.py:33
 msgid "tbsp"
-msgstr ""
+msgstr "msk"
 
 #: makebread/utils/units.py:21 makebread/utils/units.py:28
 #: makebread/utils/units.py:33
 msgid "tsp"
-msgstr ""
+msgstr "tsp"
 
 #: makebread/ui/main_window.py:167
 #, python-brace-format
 msgid "{count} favorites"
-msgstr ""
+msgstr "{count} favoriter"
 
 #: makebread/ui/main_window.py:169
 #, python-brace-format
 msgid "{count} recipes"
-msgstr ""
+msgstr "{count} recept"
 
 #: makebread/ui/main_window.py:218
 #, python-brace-format
 msgid "{count} results for '{query}'"
-msgstr ""
+msgstr "{count} resultat för '{query}'"
 
 #: makebread/ui/main_window.py:81
 msgid "♥ Favorites"
-msgstr ""
+msgstr "♥ Favoriter"
 
 #: makebread/ui/main_window.py:85
 msgid "🎲 Random"
-msgstr ""
+msgstr "🎲 Slumpmässig"
