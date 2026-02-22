@@ -3,24 +3,25 @@
 import gettext
 import locale
 import os
-from pathlib import Path
 
-_LOCALE_DIR = Path(__file__).parent.parent / "resources" / "locale"
 _DOMAIN = "makebread"
 
-# Initialize with system locale, fall back to English
+# Try system locale dir first, then bundled
+_SYSTEM_LOCALE = "/usr/share/locale"
+_BUNDLED_LOCALE = os.path.join(os.path.dirname(__file__), "..", "resources", "locale")
+
+# Set up locale from environment (LANG, LC_ALL, etc.)
 try:
-    lang = locale.getdefaultlocale()[0] or "en"
-except ValueError:
-    lang = "en"
+    locale.setlocale(locale.LC_ALL, "")
+except locale.Error:
+    pass
 
-_translation = gettext.translation(
-    _DOMAIN,
-    localedir=str(_LOCALE_DIR),
-    languages=[lang, "en"],
-    fallback=True,
-)
+# Bind domain to system locale dir
+locale.bindtextdomain(_DOMAIN, _SYSTEM_LOCALE)
+locale.textdomain(_DOMAIN)
+gettext.bindtextdomain(_DOMAIN, _SYSTEM_LOCALE)
+gettext.textdomain(_DOMAIN)
 
-# Export the gettext function as _()
-_ = _translation.gettext
-ngettext = _translation.ngettext
+# Use gettext module
+_ = gettext.gettext
+ngettext = gettext.ngettext
