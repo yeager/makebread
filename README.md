@@ -1,11 +1,11 @@
 # makeBread
 
-Recepthanterare för brödbakmaskiner.
-Timer och enhetsomvandling.
+Bread machine recipe manager.
+Timer and unit conversion.
 
-GTK4/Adwaita · Python · v0.1.0 · 60 översättningsbara strängar
+GTK4/Adwaita · Python · v0.1.0 · 60 translatable strings
 
-## Installation
+## Install
 
 ### Ubuntu / Debian
 ```bash
@@ -19,10 +19,10 @@ sudo dnf install makebread
 ```
 Repo: [yeager/rpm-repo](https://github.com/yeager/rpm-repo)
 
-## Översättning
+## Translation
 
-Översätts via [Transifex](https://app.transifex.com/danielnylander/makebread/). 11 språk.
+Translated via [Transifex](https://app.transifex.com/danielnylander/makebread/). 11 languages.
 
-## Licens
+## License
 
 GPL-3.0-or-later · Daniel Nylander <daniel@danielnylander.se>
