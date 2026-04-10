@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-09 07:17+0000\n"
+"POT-Creation-Date: 2026-04-10 07:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Ingredient"
 msgstr ""
 
-#: makebread/ui/recipe_editor.py:75 makebread/ui/recipe_view.py:97
+#: makebread/ui/recipe_view.py:97 makebread/ui/recipe_editor.py:75
 msgid "Ingredients"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgstr ""
 msgid "Instruction"
 msgstr ""
 
-#: makebread/ui/recipe_editor.py:79 makebread/ui/recipe_view.py:123
+#: makebread/ui/recipe_view.py:123 makebread/ui/recipe_editor.py:79
 msgid "Instructions"
 msgstr ""
 
@@ -130,7 +130,7 @@ msgstr ""
 msgid "New ingredient"
 msgstr ""
 
-#: makebread/ui/recipe_editor.py:83 makebread/ui/recipe_view.py:136
+#: makebread/ui/recipe_view.py:136 makebread/ui/recipe_editor.py:83
 msgid "Notes"
 msgstr ""
 
